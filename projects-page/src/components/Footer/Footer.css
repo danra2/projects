@@ -16,14 +16,19 @@ footer {
     font-size: 12px;
 }
 
-.footer-icon {
+.footer-icon a {
     font-size: 18px; 
     color: white; 
     padding-left: 24px;
 }
 
+.footer-icon a:hover {
+    opacity: .7; 
+    cursor: pointer;
+}
+
 .footer-wrapper {
-    padding: 48px 48px 48px 48px; 
+    padding: 36px 36px 36px 36px; 
 }
 
 .footer-icons {
@@ -39,7 +44,7 @@ footer {
     .footer-icons {
         padding-top: 24px; 
     }
-    .footer-icon {
+    .footer-icon a {
         padding-left: 0; 
         padding-right: 24px; 
     }

@@ -20,7 +20,7 @@
 }
 
 header {
-    margin: 48px 48px 48px 48px;
+    margin: 36px 36px 36px 36px;
     display: flex; 
     flex-direction: row; 
     justify-content: space-between;
@@ -71,7 +71,7 @@ header {
    }
  }
 
- .header-icon:hover, .header-link:hover  {
+ .header-icon a:hover, .header-link a:hover  {
     color: lightgrey;  
     cursor: pointer;
  }
