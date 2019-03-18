@@ -69,7 +69,7 @@ class Articles extends Component {
             }
         }
         rows.push(<div className="articles-secondary">{sub_rows}</div>);
-        return <div>{rows}</div>;
+        return <div className="articles-fullwrapper">{rows}</div>;
         
     }
 }
