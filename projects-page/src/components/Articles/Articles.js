@@ -1,6 +1,6 @@
 import React, { Component } from 'react'; 
 import './Articles.css';
-import content from '/Users/caylahamann/Desktop/cornellsun/projects-page/src/assets/content.js';
+import content from '../../assets/content.js';
 
 class Articles extends Component {
     constructor(props) {
