@@ -270,13 +270,13 @@
 .footer p{
 	margin-left: 28%;
 }
-a{
+.a-tag-pumpkin{
 	padding-top: 5%;
 	padding-bottom: 5%;
 	color: #E0E0E0;
 	text-decoration: none;
 }
-a:hover{
+.a-tag-pumpkin:hover{
 	color: #b04e4b;
 }
 

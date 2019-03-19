@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingPage from './screens/LandingPage.js'; 
 import PhotoWeek from './screens/PhotoWeek/PhotoWeek.js';
+import pumpkin from './screens/Pumpkin/ptower.js'; 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
@@ -11,6 +12,7 @@ class App extends Component {
       <Router>
         <Route exact path="/" component={LandingPage} />
         <Route path="/week-in-photos" component={PhotoWeek} />
+        <Route path="/pumpkin" component={pumpkin}/>
       </Router>
       </div>
     );

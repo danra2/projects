@@ -1,4 +1,4 @@
-import image1 from './images/picture3.png';  
+import image_1 from '../screens/Pumpkin/images/helicopter.png';
 
 const content = [
     {
@@ -7,7 +7,14 @@ const content = [
         description: '...', 
         image: 'https://cornellsun.com/wp-content/uploads/2019/02/BYT-Snow-9.jpg', 
         url: '/week-in-photos'
-    }
+    }, 
+    {
+        id: 1, 
+        title: 'How The Pumpkin Got on the Clocktower', 
+        description: '...', 
+        image: image_1, 
+        url: '/pumpkin'
+    }, 
 ]; 
 
 export default content; 
