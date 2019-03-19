@@ -1,6 +1,7 @@
 import React, { Component } from 'react'; 
 import './Articles.css';
 import content from '../../assets/content.js';
+import {Link} from 'react-router-dom'; 
 
 class Articles extends Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class Articles extends Component {
         if (window.innerWidth <= 768 || document.body.clientWidth <= 768) {
             for (let i = 0; i<content.length; i++) {
                 rows.push (
-                    <a href={content[i].url}>
+                    <Link to={content[i].url}>
                         <div className = "articles-mediaquery">
                             <div className = "articles-image w-p-98" style = {{backgroundImage: 'url('+ content[0].image + ')'}}></div>
                             <div className = "articles-description w-p-60">
@@ -33,7 +34,7 @@ class Articles extends Component {
                                     <span className = "articles-description-p">{content[i].description}</span>
                                 </div>
                         </div>
-                    </a>
+                    </Link>
                 );
             }
         }
@@ -41,7 +42,7 @@ class Articles extends Component {
             for (let i = 0; i<content.length; i++) {
                 if (i===0) {
                     rows.push (
-                        <a href={content[i].url}>
+                        <Link to={content[i].url}>
                             <div className = "articles-primary">
                                 <div className = "articles-image w-p-60" style = {{backgroundImage: 'url('+ content[i].image + ')'}}></div>
                                 <div className = "articles-description w-p-35">
@@ -49,18 +50,18 @@ class Articles extends Component {
                                     <span className = "articles-description-p">{content[i].description}</span>
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     );
                 }
                 else {
                     sub_rows.push (
                             <div className = "articles-image w-p-48" style = {{backgroundImage: 'url('+ content[i].image + ')'}}>
-                                <a href={content[i].url}>
+                                <Link to={content[i].url}>
                                 <div className = "articles-description-overlay">
                                     <div className = "articles-description-title">{content[i].title}</div>
                                     <span className = "articles-description-p">{content[i].description}</span>
                                 </div>
-                                </a>
+                                </Link>
                             </div> 
                     );
                 }

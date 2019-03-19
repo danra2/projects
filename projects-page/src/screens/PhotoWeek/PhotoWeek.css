@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+
+.logo {
+  padding: 20px;
+  padding-left: 100px;
+  /* padding-right: 100px; */
+  display: inline-block;
+}
+
+.gallery-container {
+  margin: 100px 100px 100px 100px;
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+}
+
+.title-container {
+  float: right;
+  padding-right: 100px;
+}
+
+.gallery-subtitle {
+  font-size: 18px;
+  color: #484848;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photos-page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: white;
+  z-index: 3;
+  justify-content: space-between;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.photo-image:hover {
+  opacity: 1;
+}
+
+.photo-image {
+  opacity: 0.5;
+}

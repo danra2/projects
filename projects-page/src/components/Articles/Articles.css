@@ -40,6 +40,7 @@
 .articles-image {
     height: 375px;
     background-position: center;
+    background-size: 125%;
 
 }
 
@@ -116,6 +117,10 @@ a {
 
 a:active, a:visited, a:hover, a:link {
     color: black;
+}
+
+Link {
+    cursor: pointer;
 }
 
 .articles-fullwrapper {
