@@ -2,9 +2,9 @@
 /* OLD WRAPPER: WORKS
 .wrapper{
 	position: relative;
-	
+
 	width: 100%;
-	
+
 	margin-top: -1%;
 	margin-left: -1%;
 }*/
@@ -14,14 +14,14 @@
 }
 .wrapper{
 	min-height: 760px;
-	
-	
+
+
 	background-image: url(images/darker-title-image.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 }
 .wrapper-mobile img{
 	width: 100%;
@@ -145,7 +145,7 @@
 	margin-left: 18%;
 	/*color: #b7b7b7;*/
 	color: #666;
-	
+
 	font-family: 'Athelas', serif;
 }
 #lefttitle{
@@ -200,6 +200,7 @@
 	margin-left: 18%;
 	margin-right: 18%;
 	margin-top: 2%;
+	margin-bottom: 2%;
 	font-family: 'Athelas', serif;
 	font-size: 130%;
 	color: #000;
@@ -223,7 +224,7 @@
 .content{
 	padding-top: 2%;
 	width: 90%;
-	
+
 }
 .caption{
 	width: 40%;
@@ -287,7 +288,7 @@
 	.wrapper-mobile{
 		display: none;
 	}
-	
+
 }
 @media only screen and (max-width: 1000px){
 	#sunlogo{
@@ -341,7 +342,7 @@
 	}
 	.in-text-img{
 		margin-left: 18%;
-		
+
 		height: auto;
 	}
 	.sketch{
@@ -378,7 +379,7 @@
 	#maintitle{
 		font-size: 190%;
 	}
-	
+
 
 }
 
@@ -391,7 +392,7 @@
 
 .line-1{
     position: relative;
-    top: 12%;  
+    top: 12%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
@@ -400,7 +401,7 @@
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);
 }
 
 /* Animation */
@@ -447,4 +448,3 @@
 75% {opacity:0.8;}
 100% {opacity: 1.0;}
 }
-
