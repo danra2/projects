@@ -13,21 +13,21 @@
 
 .gallery-title {
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
 }
 
 .title-container {
   float: right;
-  padding-right: 100px;
+  padding-right: 115px;
 }
 
 .gallery-subtitle {
-  font-size: 18px;
+  font-size: 15px;
   color: #484848;
-  text-align: center;
+  text-align: right;
   margin-top: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .photos-page-header {
