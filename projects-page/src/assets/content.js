@@ -11,7 +11,7 @@ const content = [
     {
         id: 1, 
         title: 'How The Pumpkin Got on the Clocktower', 
-        description: '...', 
+        description: 'Re-solving The Greatest Mystery In Cornell History', 
         image: image_1, 
         url: '/pumpkin'
     }, 

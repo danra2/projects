@@ -126,3 +126,11 @@ Link {
 .articles-fullwrapper {
     margin: 36px 36px 36px 36px; 
 }
+
+.articles-media-query > .articles-description > .articles-description-title:hover {
+    color: lightgrey;
+}
+
+.articles-primary > .articles-description > .articles-description-title:hover {
+    color: lightgrey;
+}

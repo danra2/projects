@@ -28,7 +28,7 @@ class Articles extends Component {
                 rows.push (
                     <Link to={content[i].url}>
                         <div className = "articles-mediaquery">
-                            <div className = "articles-image w-p-98" style = {{backgroundImage: 'url('+ content[0].image + ')'}}></div>
+                            <div className = "articles-image w-p-98" style = {{backgroundImage: 'url('+ content[i].image + ')'}}></div>
                             <div className = "articles-description w-p-60">
                                     <div className = "articles-description-title">{content[i].title}</div>
                                     <span className = "articles-description-p">{content[i].description}</span>
