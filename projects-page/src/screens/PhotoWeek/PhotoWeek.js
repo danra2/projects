@@ -41,7 +41,7 @@ class PhotoWeek extends Component {
   render() {
 
     const photos = [
-      { src: 'https://cornellsun.com/wp-content/uploads/2019/02/BYT-Snow-9.jpg', width: 3, height: 2, 
+      { src: 'https://cornellsun.com/wp-content/uploads/2019/02/BYT-Snow-9.jpg', width: 3, height: 2,
         caption: "Students head back to North Campus after classes Monday afternoon. (Boris Tsang / Sun Assistant Photography Editor)" },
       { src: 'https://i1.wp.com/cornellsun.com/wp-content/uploads/2019/02/BYT-Wegmans-7.jpg?resize=1170%2C781', width: 3, height: 2,
         caption: "Wegmans introduced temporary price cuts on select food items after the government shutdown led to a shortage in national food stamp funding. The reductions started on Feb. 16 and will continue through March 2. (Boris Tsang / Sun Assistant Photography Editor)" },

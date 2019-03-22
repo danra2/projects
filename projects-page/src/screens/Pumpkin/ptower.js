@@ -466,9 +466,9 @@ class pumpkin extends React.Component {
             <div className="row">
               <div className="col-sm-7 cols">
                 <p id="footer-credits">CREDITS</p>
-                <p>Editorial | Jacob Rubashkin '19, Sun Associate Editor</p>
-                <p>Design & Development | Sophia Deng '19, Sun Editor in Chief</p>
-                <p>Illustration | Alicia Wang '21, Sun sketch artist</p>
+                <p>Editorial | Jacob Rubashkin '19</p>
+                <p>Design & Development | Sophia Deng '19</p>
+                <p>Illustration | Alicia Wang '21, Sun Graphics/Sketch Editor</p>
               </div>
               <div className="col-sm-5 cols">
                 <p>
