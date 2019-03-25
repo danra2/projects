@@ -1,7 +1,26 @@
-$font-primary: Roboto; 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700,800|Roboto:100,300,400,500); 
+
+$font-primary: 'Roboto', sans-serif; 
+$font-secondary: 'Open Sans', sans-serif;
 $primary-gray: #222222;
 $secondary-gray: #4F4D49;
 $romance-gray: #F4EDE6;
-$parimary-red: #9E2D2B;
+$primary-red: #9E2D2B;
+$primary-white: rgb(247, 247, 247); 
 $secondary-red: #A72F2A;
 
+%margins {
+    margin: 24px 24px 24px 24px; 
+}
+
+%row {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+}
+
+%column {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}

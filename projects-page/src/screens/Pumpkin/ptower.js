@@ -44,7 +44,7 @@ class pumpkin extends React.Component {
         </div>
         <div>
           <div className="wrapper">
-            <a href="http://cornellsun.com" target="_blank" rel="noopener noreferrer">
+            <a className="a-tag-pumpkin" href="http://cornellsun.com" target="_blank" rel="noopener noreferrer">
               <img id="sunlogo" src={require('./images/sunlogowhite.png')} alt="Daily Sun" />
             </a>
             <p id="first-line-desktop" className="maintitle-desktop">
@@ -476,7 +476,7 @@ class pumpkin extends React.Component {
                 <a
                     href="http://www.facebook.com/sharer.php?u=http://projects.cornellsun.com/projects/pumpkin-feature"
                     target="_blank"
-                    className="iconlink facebook"
+                    className="iconlink facebook a-tag-pumpkin"
                     rel="noopener noreferrer"
                   >
                     <i
@@ -490,8 +490,9 @@ class pumpkin extends React.Component {
                   <a
                     href="https://twitter.com/share?url=http://projects.cornellsun.com/projects/pumpkin-feature&text=Simple%20Share%20Buttons&hashtags=simplesharebuttons"
                     target="_blank"
-                    className="iconlink twitter"
+                    className="iconlink twitter a-tag-pumpkin"
                     rel="noopener noreferrer"
+                    
                   >
                     <i
                       className="fa fa-twitter-square"

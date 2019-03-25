@@ -1,5 +1,7 @@
+@import '../../all.scss'; 
+
 footer {
-    background-color: rgba(61, 61, 61, 0.8);;
+    background-color: $secondary-gray;
     margin: none;
     display: flex; 
     flex-direction: row; 
@@ -10,15 +12,15 @@ footer {
 .footer-copyright {
 
     width: 282px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-    color: white; 
+    font-family: $font-primary; 
+    color: $primary-white; 
     font-weight: 100;  
     font-size: 12px;
 }
 
 .footer-icon a {
     font-size: 18px; 
-    color: white; 
+    color: $primary-white; 
     padding-left: 24px;
 }
 
