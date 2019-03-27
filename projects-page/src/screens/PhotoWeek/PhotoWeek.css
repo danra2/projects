@@ -42,13 +42,14 @@
   margin: 0px;
   font-size: 15px;
   padding: 0px 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .photo-credit {
   color: #999999;
   font-size: 12px;
-  font-weight: bold;
   padding: 0px 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .react-photo-gallery--gallery > * {
@@ -89,7 +90,7 @@
 .gallery-title {
   text-transform: uppercase;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 58px;
   margin-bottom: 10px;
 }
@@ -133,7 +134,8 @@
 }
 
 .photos-credit {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .photos-page-header {
