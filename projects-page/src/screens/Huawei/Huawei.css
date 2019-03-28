@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+
 .row{
 	margin-right: 0px!important;
 }
@@ -22,10 +24,11 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.maintitle-desktop{
+.maintitle-desktop-hw{
 	text-align: left;
 	font-size: 320%;
-	font-family: 'Athelas', serif;
+    /* font-family: 'Athelas', serif; */
+    font-family: 'Open Sans', sans-serif;
 	margin-left: 12%;
 	position: relative;
 	/*margin-left: 58%;*/
@@ -39,7 +42,7 @@
 #first-line-desktop{
 	margin-top: 10%;
 }
-.byline-desktop{
+.byline-desktop-hw{
 	text-align: left;
 	/*font-family: 'Lora', serif;*/
 	margin-top: 1%;
@@ -50,7 +53,7 @@
 	/*color: #b7b7b7;*/
 	color: #fff;
 	font-style: italic;
-	font-family: 'Athelas', serif;
+	font-family: 'Roboto', sans-serif;
 }
 #headquarters{
 
@@ -67,28 +70,27 @@
 .pull-quote{
 	width: 200px;
 }
-.img-caption{
+.img-caption-hw{
 	width: 230px;
-	margin-left: 23%;
-	font-size: 140%;
-	font-family: 'Athelas', serif;
+	margin-left: 33%;
+	font-size: 90%;
 	margin-bottom: -3px;
 	font-style:italic;
-
+    font-family: 'Roboto', sans-serif;
 	margin-top: 15%;
 	color: #666;
 }
 
 
-.pull-quote-content{
+.pull-quote-content-hw{
 	font-size: 170%;
-	font-family: 'Athelas', serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: -3px;
 	font-weight:bold;
 }
 #quote-credit {
     font-weight: normal;
-    font-size: 100%;
+    font-size: 85%;
 }
 #titleimage{
 	width: 102%;
@@ -97,21 +99,23 @@
 .img-caption-bold{
 	font-weight: bold;
 }
-.large-letter{
-	font-size: 280%;
+.large-letter-hw{
+    font-size: 200%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-#maintitle{
+#maintitle-hw{
 	text-align: left;
 	font-size: 270%;
-	font-family: 'Athelas', serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-left: 18%;
 	/*margin-left: 58%;*/
 	/*color: #56ff64;*/
 	color: #000;
 	margin-top: 0%;
 	/*font-family: 'Source Code Pro', monospace;*/
-	/* -webkit-animation: flicker 5s infinite;*/
+    /* -webkit-animation: flicker 5s infinite;*/
+    font-weight: bold;
 }
 
 .inarticlephoto{
@@ -128,15 +132,16 @@
 	height: auto;
 }
 
-#byline{
+#byline-hw{
 	text-align: left;
 	/*font-family: 'Lora', serif;*/
 	margin-top: 1%;
-	margin-left: 18%;
+    margin-left: 18%;
+    margin-bottom: 4%;
 	/*color: #b7b7b7;*/
 	color: #666;
-
-	font-family: 'Athelas', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
 }
 #lefttitle{
 	width: 55%;
@@ -167,54 +172,64 @@
 	width: 100%;
 	height: auto;
 }
-.sketch-caption{
+.sketch-caption-hw{
 	margin-left: 17%;
 	width: 65%;
 	margin-top: 0.5%;
 	font-size: 100%;
 	color: #666;
-	font-family: "Athelas", serif;
+	font-family: "Roboto", sans-serif;
 	font-style: italic;
 }
 #header-photo-caption{
-	font-size: 100%!important;
+	font-size: 90%!important;
 }
-.in-text-img{
+.in-text-img-hw{
 	margin-left: 37%;
-	width:76%;
+	width:100%;
 	height: auto;
 	margin-top: 2%;
 	margin-right: auto;
 }
-.bodyparas{
+.subheader-hw {
+    margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 200%;
+    font-weight: bold;
+}
+.bodyparas-hw{
 	margin-left: 18%;
 	margin-right: 18%;
 	margin-top: 2%;
 	margin-bottom: 2%;
-	font-family: 'Athelas', serif;
-	font-size: 130%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 115%;
 	color: #000;
 	line-height: 1.7em;
 }
-.bodyparas a {
+.bodyparas-hw a {
     color: #7e96bc;
 }
-.bodyparas a:hover {
+.bodyparas-hw a:hover {
     color: #434f63;
     text-decoration: none;
 }
-.pull-quote-para{
+.pull-quote-para-hw{
 	margin-left: 27%;
 	margin-top: 2%;
-	font-family: 'Athelas', serif;
-	font-size: 130%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 115%;
 	color: #000;
 	line-height: 1.7em;
 }
-.pull-quote-para a {
+.pull-quote-para-hw a {
     color: #7e96bc;
 }
-.pull-quote-para a:hover {
+.pull-quote-para-hw a:hover {
     color: #434f63;
     text-decoration: none;
 }
@@ -226,7 +241,7 @@
 	width: 100%;
 }
 .content{
-	padding-top: 2%;
+	padding-top: 3%;
 	width: 90%;
 
 }
@@ -239,7 +254,11 @@
 
 .credits{
 	font-style: italic;
-	color: #666!important;
+    color: #666!important;
+    margin-bottom: 5%;
+}
+#statement{
+    font-style: italic;
 }
 .iconlink{
 	text-decoration: none;
@@ -257,23 +276,6 @@
 }
 .twitter:hover{
 	color: #00aced;
-}
-.footer{
-	font-size: 130%;
-	color: #fff;
-
-	font-family: 'Athelas', serif;
-	text-align: left;
-	background-color: #666;
-	padding-bottom: 5%;
-	padding-top: 5%;
-	margin-top: 4%;
-}
-#footer-credits{
-	font-size: 180%;
-}
-.footer p{
-	margin-left: 28%;
 }
 .a-tag-pumpkin{
 	padding-top: 5%;
@@ -302,16 +304,8 @@
 }
 @media only screen and (max-width: 1000px){
 
-	#maintitle{
+	#maintitle-hw{
 		font-size: 200%;
-	}
-}
-@media only screen and (min-width: 768px){
-	#maintitle{
-		display:none;
-	}
-	#byline{
-		display:none;
 	}
 }
 @media only screen and (max-width: 767px){
@@ -319,10 +313,10 @@
 		display: block;
 	}
 
-	.wrapper{
+	.wrapperHW{
 		display:none;
 	}
-	.img-caption{
+	.img-caption-hw{
 		margin-left: 18%;
 		width: 65%;
 		margin-top: 0.5%;
@@ -330,34 +324,46 @@
 		color: #666;
 		margin-bottom: 1%;
 	}
-	.pull-quote-para{
+	.pull-quote-para-hw{
 		margin-left: 18%;
 		margin-right: 22%;
 		margin-top: 2%;
-		font-family: 'Athelas', serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 110%;
 		color: #000;
 		line-height: 1.7em;
 	}
 
 	.pull-quote{
-		width: 250px;
-		margin-left: 18%;
+		/* width: 250px;
+        margin-left: 18%; */
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 70%;
 	}
-	.in-text-img{
+	/* .in-text-img-hw{
 		margin-left: 18%;
 
 		height: auto;
-	}
+	} */
 	.sketch{
 		margin-left: 0%;
 		margin-right: 0%;
 		width: 100%;
 		height: auto;
 	}
-	.wrapper{
+	.wrapperHW{
 		background-position: right;
-	}
+    }
+    .in-text-img-hw {
+        margin-left: 10%;
+        width: 95%;
+    }
+    #maintitle-hw{
+        margin-right: 15%;
+    }
 }
 
 @media only screen and (max-width: 650px){
@@ -367,11 +373,11 @@
 	#sunlogo{
 		width: 12%;
 	}
-	.wrapper{
+	.wrapperHW{
 		min-height: 450px;
 	}
-	.pull-quote-para{
-		font-size: 136%;
+	.pull-quote-para-hw{
+		font-size: 115%;
 	}
 	.parallaximage{
 		background-image: none;
@@ -380,9 +386,14 @@
 	.sketch{
 		display: block;
 	}
-	#maintitle{
-		font-size: 190%;
-	}
+	#maintitle-hw{
+        font-size: 190%;
+        margin-right: 15%;
+    }
+    .in-text-img-hw {
+        margin-left: 5%;
+        width: 95%;
+    }
 
 
 }

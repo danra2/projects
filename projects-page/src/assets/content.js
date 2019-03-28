@@ -4,7 +4,7 @@ import image_2 from '../screens/Huawei/images/huaweicover.jpg';
 const content = [
     {
         id: 0, 
-        title: 'In 2017, Huawei Paid Cornell $5.3 Million for Research Contracts. That’s More Than The Embattled Tech Firm Paid to Any U.S. College in the Last Six Academic Years.', 
+        title: 'Huawei paid Cornell $5.3 million for research contracts, most of any U.S. college in the last six years', 
         description: 'Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company.', 
         image: image_2, 
         url: '/huawei'
