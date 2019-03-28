@@ -1,0 +1,454 @@
+.row{
+	margin-right: 0px!important;
+}
+.wrapperHW{
+	min-height: 760px;
+
+
+	background-image: url(images/huaweicover.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.wrapper-mobile img{
+	width: 100%;
+}
+.parallaximage{
+	min-height: 760px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.maintitle-desktop{
+	text-align: left;
+	font-size: 320%;
+	font-family: 'Athelas', serif;
+	margin-left: 12%;
+	position: relative;
+	/*margin-left: 58%;*/
+	/*color: #56ff64;*/
+	color: #fff;
+	font-weight: bold;
+	/*font-family: 'Source Code Pro', monospace;*/
+	/* -webkit-animation: flicker 5s infinite;*/
+
+}
+#first-line-desktop{
+	margin-top: 10%;
+}
+.byline-desktop{
+	text-align: left;
+	/*font-family: 'Lora', serif;*/
+	margin-top: 1%;
+	margin-left: 12%;
+	font-size: 130%;
+	margin-top: 2%;
+	position: relative;
+	/*color: #b7b7b7;*/
+	color: #fff;
+	font-style: italic;
+	font-family: 'Athelas', serif;
+}
+#headquarters{
+
+	background-image: url(images/huawei1.jpg);
+}
+#marco{
+
+	background-image: url(images/marco.jpg);
+}
+.quote-paragraph{
+	margin-left: 18%;
+	margin-right: 22%;
+}
+.pull-quote{
+	width: 200px;
+}
+.img-caption{
+	width: 230px;
+	margin-left: 23%;
+	font-size: 140%;
+	font-family: 'Athelas', serif;
+	margin-bottom: -3px;
+	font-style:italic;
+
+	margin-top: 15%;
+	color: #666;
+}
+
+
+.pull-quote-content{
+	font-size: 170%;
+	font-family: 'Athelas', serif;
+	margin-bottom: -3px;
+	font-weight:bold;
+}
+#quote-credit {
+    font-weight: normal;
+    font-size: 100%;
+}
+#titleimage{
+	width: 102%;
+	height: auto;
+}
+.img-caption-bold{
+	font-weight: bold;
+}
+.large-letter{
+	font-size: 280%;
+}
+
+#maintitle{
+	text-align: left;
+	font-size: 270%;
+	font-family: 'Athelas', serif;
+	margin-left: 18%;
+	/*margin-left: 58%;*/
+	/*color: #56ff64;*/
+	color: #000;
+	margin-top: 0%;
+	/*font-family: 'Source Code Pro', monospace;*/
+	/* -webkit-animation: flicker 5s infinite;*/
+}
+
+.inarticlephoto{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#ilr{
+	width: 100%;
+	/* -webkit-animation: graduallydark;*/
+}
+#b4{
+	width: 60%;
+	height: auto;
+}
+
+#byline{
+	text-align: left;
+	/*font-family: 'Lora', serif;*/
+	margin-top: 1%;
+	margin-left: 18%;
+	/*color: #b7b7b7;*/
+	color: #666;
+
+	font-family: 'Athelas', serif;
+}
+#lefttitle{
+	width: 55%;
+	float: left;
+}
+#righttitle{
+	width: 45%;
+	float: right;
+}
+#sunlogo{
+	width: 5%;
+
+	height: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+	position: relative;
+}
+.ital{
+	font-style: italic;
+
+}
+.divider{
+	text-align: center;
+}
+.sketch{
+	/*margin-left: 18%;
+	width: 63%;*/
+	width: 100%;
+	height: auto;
+}
+.sketch-caption{
+	margin-left: 17%;
+	width: 65%;
+	margin-top: 0.5%;
+	font-size: 100%;
+	color: #666;
+	font-family: "Athelas", serif;
+	font-style: italic;
+}
+#header-photo-caption{
+	font-size: 100%!important;
+}
+.in-text-img{
+	margin-left: 37%;
+	width:76%;
+	height: auto;
+	margin-top: 2%;
+	margin-right: auto;
+}
+.bodyparas{
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: 'Athelas', serif;
+	font-size: 130%;
+	color: #000;
+	line-height: 1.7em;
+}
+.bodyparas a {
+    color: #7e96bc;
+}
+.bodyparas a:hover {
+    color: #434f63;
+    text-decoration: none;
+}
+.pull-quote-para{
+	margin-left: 27%;
+	margin-top: 2%;
+	font-family: 'Athelas', serif;
+	font-size: 130%;
+	color: #000;
+	line-height: 1.7em;
+}
+.pull-quote-para a {
+    color: #7e96bc;
+}
+.pull-quote-para a:hover {
+    color: #434f63;
+    text-decoration: none;
+}
+#headerimage{
+	height: auto;
+	margin-top: 20%;
+	padding: 20px;
+	margin-left: 10%;
+	width: 100%;
+}
+.content{
+	padding-top: 2%;
+	width: 90%;
+
+}
+.caption{
+	width: 40%;
+	float: right;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+.credits{
+	font-style: italic;
+	color: #666!important;
+}
+.iconlink{
+	text-decoration: none;
+	color: #fff;
+}
+.icon{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10%;
+	animation-name: maketextvisible;
+	animation-duration: 2s;
+}
+.facebook:hover{
+	color: #3b5998;
+}
+.twitter:hover{
+	color: #00aced;
+}
+.footer{
+	font-size: 130%;
+	color: #fff;
+
+	font-family: 'Athelas', serif;
+	text-align: left;
+	background-color: #666;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 4%;
+}
+#footer-credits{
+	font-size: 180%;
+}
+.footer p{
+	margin-left: 28%;
+}
+.a-tag-pumpkin{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #E0E0E0;
+	text-decoration: none;
+}
+.a-tag-pumpkin:hover{
+	color: #b04e4b;
+}
+
+@media only screen and (min-width: 651px){
+	.sketch{
+		display: none;
+	}
+	.wrapper-mobile{
+		display: none;
+	}
+
+}
+@media only screen and (max-width: 1000px){
+	#sunlogo{
+		width: 8%;
+	}
+
+}
+@media only screen and (max-width: 1000px){
+
+	#maintitle{
+		font-size: 200%;
+	}
+}
+@media only screen and (min-width: 768px){
+	#maintitle{
+		display:none;
+	}
+	#byline{
+		display:none;
+	}
+}
+@media only screen and (max-width: 767px){
+	.wrapper-mobile{
+		display: block;
+	}
+
+	.wrapper{
+		display:none;
+	}
+	.img-caption{
+		margin-left: 18%;
+		width: 65%;
+		margin-top: 0.5%;
+		font-size: 110%;
+		color: #666;
+		margin-bottom: 1%;
+	}
+	.pull-quote-para{
+		margin-left: 18%;
+		margin-right: 22%;
+		margin-top: 2%;
+		font-family: 'Athelas', serif;
+		font-size: 110%;
+		color: #000;
+		line-height: 1.7em;
+	}
+
+	.pull-quote{
+		width: 250px;
+		margin-left: 18%;
+	}
+	.in-text-img{
+		margin-left: 18%;
+
+		height: auto;
+	}
+	.sketch{
+		margin-left: 0%;
+		margin-right: 0%;
+		width: 100%;
+		height: auto;
+	}
+	.wrapper{
+		background-position: right;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.content{
+		width: 100%;
+	}
+	#sunlogo{
+		width: 12%;
+	}
+	.wrapper{
+		min-height: 450px;
+	}
+	.pull-quote-para{
+		font-size: 136%;
+	}
+	.parallaximage{
+		background-image: none;
+		display: none;
+	}
+	.sketch{
+		display: block;
+	}
+	#maintitle{
+		font-size: 190%;
+	}
+
+
+}
+
+/** TYPEWRITER ANIMATIONS: CREDITS TO http://codepen.io/thiagoteles/pen/ogoxLw/**/
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+
+.line-1{
+    position: relative;
+    top: 12%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 100%;
+    /*text-align: center;*/
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 16.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+/*flicker animation*/
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+
+@-webkit-keyframes graduallydark
+{
+0% {opacity:1;}
+25% {opacity:0.8;}
+50% {opacity:0.7;}
+75% {opacity:0.6;}
+100% {opacity: 0.5;}
+}
+
+@-webkit-keyframes graduallylight
+{
+0% {opacity:0.5;}
+25% {opacity:0.6;}
+50% {opacity:0.7;}
+75% {opacity:0.8;}
+100% {opacity: 1.0;}
+}
