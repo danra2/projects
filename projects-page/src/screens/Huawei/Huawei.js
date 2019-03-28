@@ -42,7 +42,11 @@ class Huawei extends React.Component {
               rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
             />
+            <meta property="og:site_name" content="The Cornell Daily Sun"/>
+            <meta property="og:title" content="Huawei Paid Cornell $5.3 Million For Research Contracts, Most of Any U.S. College in the Last Six Years"/>
+            <meta property="og:description" content="Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company."/>
             <meta property="og:image" content="../images/huaweicover.jpg)}" />
+            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/>
           </div>
           <div>
             <div className="wrapperHW">
@@ -259,7 +263,7 @@ class Huawei extends React.Component {
             <img className="sketch" src={require('./images/marco.jpg')} alt="" />
             <p className="sketch-caption-hw">
             Senator Marco Rubio (R- F.L.) speaking at the 2012 CPAC in Washington, 
-            D.C. In 2018, he and 25 other members of congress asked the Department 
+            D.C. In 2018, he and 25 other members of Congress asked the Department 
             of Education to scrutinize Huawei's research partnerships with U.S. 
             universities. / Photo Courtesy of Gage Skidmore
           </p>
