@@ -1,5 +1,6 @@
 import React from "react";
 import "./ptower.css";
+import Footer from "../../components/Footer/Footer.js";
 
 class pumpkin extends React.Component {
   render() {
@@ -251,21 +252,7 @@ class pumpkin extends React.Component {
               other news organization ever got was speculation; and everyone we
               speculated about, from the University to certain fraternities and
               athletic teams, denied all involvement.
-              <br />
-              <br />
             </p>
-          </div>
-          <div className="parallaximage" id="helicopter" />
-          <img
-            className="sketch"
-            src={require("./images/helicopter.png")}
-            alt=""
-          />
-          <p className="sketch-caption">
-            <span className="img-caption-bold">Chop chop</span> | Perhaps the
-            pumpkin came not from below, but above...
-          </p>
-          <div className="content">
             <p className="bodyparas">
               By the fall of 1999, we were obviously no longer investigating the
               story. But just before Halloween, we printed a light piece
@@ -313,8 +300,7 @@ class pumpkin extends React.Component {
               decorate its steeple. He probably became obsessed with this goal;
               and, Tom says, he began to look for a couple climbers to help him
               achieve it. He hung out at local outdoors-type stores, and after a
-              while, he found his accomplices, Reagan and Nixon. <br />
-              <br />
+              while, he found his accomplices, Reagan and Nixon.
             </p>
           </div>
           <div className="parallaximage" id="engineer" />
@@ -440,8 +426,6 @@ class pumpkin extends React.Component {
               campus newspaper. He tells his story with surprising indifference
               -- he doesn't argue points, or take pains to convince me. He tells
               it, really, as if it's the truth.
-              <br />
-              <br />
             </p>
           </div>
           <div className="parallaximage" id="rawlings" />
