@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node": "^11.13.0",
     "node-sass": "^4.11.0",
+    "pure-react-carousel": "^1.19.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-images": "^0.5.19",
     "react-modal": "^3.8.1",
     "react-photo-gallery": "^6.3.2",
+    "react-responsive-carousel": "^3.1.47",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8"
   },
