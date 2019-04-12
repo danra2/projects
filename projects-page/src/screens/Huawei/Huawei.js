@@ -1,5 +1,6 @@
 import React from "react";
 import './Huawei.css';
+import {Helmet} from "react-helmet";
 import Footer from '../../components/Footer/Footer.js';
 
 class Huawei extends React.Component {
@@ -7,8 +8,15 @@ class Huawei extends React.Component {
       return (
         <div>
           <div>
-            <meta charSet="UTF-8" />
-            <title>Huawei Paid Cornell $5.3 Million for Research Contracts, Most of Any U.S. College in the Last Six Years</title>
+            <Helmet>
+                <meta charset="UTF-8" />
+                <title>Huawei Paid Cornell $5.3 Million for Research Contracts. That’s the Firm’s Biggest Payout to a U.S. College in the Last Six Years.</title>
+                <meta data-react-helmet="true" property="og:image" content="../images/huaweicover.jpg)}" />
+                <meta data-react-helmet="true" property="og:title" content="Huawei Paid Cornell $5.3 Million For Research Contracts, Most of Any U.S. College in the Last Six Years"/>
+                <meta data-react-helmet="true" property="og:description" content="Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company."/>
+            </Helmet>
+            {/* <meta charSet="UTF-8" /> */}
+            {/* <title>Huawei Paid Cornell $5.3 Million for Research Contracts, Most of Any U.S. College in the Last Six Years</title> */}
             <link rel="stylesheet" href="css/style.css" type="text/css" />
             <link
               href="https://fonts.googleapis.com/css?family=Lora"
@@ -28,7 +36,6 @@ class Huawei extends React.Component {
             <script src="js/main.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
               crossorigin="anonymous"></script>
-            <script src="https://cdn.broadstreetads.com/init-2.min.js"></script>
             <link
               rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -42,11 +49,11 @@ class Huawei extends React.Component {
               rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
             />
-            <meta property="og:site_name" content="The Cornell Daily Sun"/>
+            {/* <meta property="og:site_name" content="The Cornell Daily Sun"/>
             <meta property="og:title" content="Huawei Paid Cornell $5.3 Million For Research Contracts, Most of Any U.S. College in the Last Six Years"/>
             <meta property="og:description" content="Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company."/>
             <meta property="og:image" content="../images/huaweicover.jpg)}" />
-            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/>
+            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/> */}
           </div>
           <div>
             <div className="wrapperHW">
@@ -99,8 +106,7 @@ class Huawei extends React.Component {
             leading Australian newspaper The Sydney Morning Herald 
             <a href="https://www.smh.com.au/business/copanies/how-the-five-eyes-cooked-up-the-campaign-to-kill-huawei-20181213-p50m24.html" target="_blank"> reported</a>. 
             </p>
-            {/* <script>broadstreet.watch({ networkId: 5828 })</script>
-            <broadstreet-zone zone-id="69224"></broadstreet-zone> */}
+            <broadstreet-zone zone-id="69224"></broadstreet-zone>
             <p className="bodyparas-hw">
             These governments, including Australia and Poland, believe that the Chinese 
             government may compel Huawei to spy on Western countries using telecommunication 
@@ -303,7 +309,7 @@ class Huawei extends React.Component {
               <p className="pull-quote-para-hw">
               Huawei denies these charges. Eric Xu, Huawei’s rotating chairman, said in an 
               <a href="https://www.lightreading.com/automation/huaweis-eric-xu-automation-5g-will-reflate-telco-margins/d/d-id/744304" target="_blank"> interview </a>
-              with Light Reading that any research fundings born out of Huawei partnerships 
+              with Light Reading that any research findings born out of Huawei partnerships 
               are “shared openly throughout the world through dissertations” rather than 
               monopolized by his corporation.
               </p>
