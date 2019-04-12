@@ -1,4 +1,7 @@
 import React from "react";
+import './Huawei.css';
+import {Helmet} from "react-helmet";
+import Footer from '../../components/Footer/Footer.js';
 import "./Huawei.css";
 import Footer from "../../components/Footer/Footer.js";
 
@@ -167,8 +170,7 @@ class Huawei extends React.Component {
               </a>
               .
             </p>
-            {/* <script>broadstreet.watch({ networkId: 5828 })</script>
-            <broadstreet-zone zone-id="69224"></broadstreet-zone> */}
+            <broadstreet-zone zone-id="69224"></broadstreet-zone>
             <p className="bodyparas-hw">
               These governments, including Australia and Poland, believe that
               the Chinese government may compel Huawei to spy on Western
@@ -582,7 +584,7 @@ class Huawei extends React.Component {
                     {" "}
                     interview{" "}
                   </a>
-                  with Light Reading that any research fundings born out of
+                  with Light Reading that any research findings born out of
                   Huawei partnerships are “shared openly throughout the world
                   through dissertations” rather than monopolized by his
                   corporation.
