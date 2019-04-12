@@ -1,7 +1,16 @@
 import React from "react";
 import "./css/willard.css";
-import { CarouselProvider, Slider, Slide, DotGroup } from "pure-react-carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  DotGroup,
+  Image
+} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
+import News from "./News.js";
+import Menu from "./Menu";
 
 class WillardStraight extends React.Component {
   render() {
@@ -23,57 +32,19 @@ class WillardStraight extends React.Component {
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
           crossOrigin="anonymous"
         />
+
         <div className="blockOne">
-          <a id="home" className="anchor" />
+          {/* <a id="home" className="anchor" /> */}
+          <Menu />
           <div className="container">
-            <nav className="navbar navbar-default">
-              <div className="container-fluid">
-                <div className="navbar-header">
-                  <button
-                    type="button"
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#navbar"
-                    aria-expanded="false"
-                  >
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                  </button>
-                  <a href="https://cornellsun.com/">
-                    <img
-                      src={require("./images/sunLogo.png")}
-                      id="sunLogo"
-                      alt="Daily Sun Logo"
-                    />
-                  </a>
-                </div>
-                <div className="collapse navbar-collapse" id="navbar">
-                  <ul>
-                    <li>
-                      <a href="/WillardStraight#home">HOME</a>
-                    </li>
-                    <li>
-                      <a href="/WillardStraight#news">NEWS</a>
-                    </li>
-                    <li>
-                      <a href="/WillardStraight#oped">OPED</a>
-                    </li>
-                    <li>
-                      <a href="/WillardStraight#timeline">TIMELINE</a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="row justify-content-md-center">
-                  <div className="col-auto col-sm-auto col-md-auto">
-                    <img
-                      id="centerCrest"
-                      src={require("./images/willardCrest.png")}
-                    />
-                  </div>
-                </div>
+            <div className="justify-content-md-center">
+              <div className="col-auto col-sm-auto col-md-auto">
+                <img
+                  id="centerCrest"
+                  src={require("./images/willardCrest.png")}
+                />
               </div>
-            </nav>
+            </div>
           </div>
         </div>
         <div className="blockTwo">
@@ -85,54 +56,48 @@ class WillardStraight extends React.Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 topRow">
-                <div id="square1" className="squareShape" />
-                <h3>Oral History of Sun Coverage</h3>
-                <p>
-                  This is the oral account of the Cornell Daily Sun coverage
-                  throughout founding.
-                </p>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 topRow">
-                <div id="square2" className="squareShape" />
-                <h3>Timeline Cornell Protests</h3>
-                <p>
-                  Revisiting the initial sparks that triggered the cascade of
-                  events to follow.
-                </p>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 topRow">
-                <div id="square3" className="squareShape" />
-                <h3>Pulitzer Prize Winning Shot</h3>
-                <p>
-                  The story behind the iconic image that made headlines
-                  throughout the mid 1900s.
-                </p>
-              </div>
+              <News
+                pic="square1"
+                h3="Oral History of Sun Coverage"
+                p="This is the oral account of the Cornell Daily Sun coverage 
+                  throughout founding."
+                row="topRow"
+              />
+              <News
+                pic="square2"
+                h3="Timeline Cornell Protests"
+                p="Revisiting the initial sparks that triggered the cascade of
+                  events to follow."
+                row="topRow"
+              />
+              <News
+                pic="square3"
+                h3="Pulitzer Prize Winning Shot"
+                p="The story behind the iconic image that made headlines
+                throughout the mid 1900s."
+                row="topRow"
+              />
             </div>
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 bottomRow">
-                <div id="square4" className="squareShape" />
-                <h3>Good Intentions Gone Hostile</h3>
-                <p>
-                  What happended, and why. What were the motives behind one
-                  extremist group.
-                </p>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5 bottomRow">
-                <div id="square5" className="squareShape" />
-                <h3>The Community Reacts</h3>
-                <p>
-                  What were going through the minds of the locals during that
-                  time.
-                </p>
-              </div>
+              <News
+                pic="square4"
+                h3="Good Intentions Gone Hostile"
+                p="What happended, and why. What were the motives behind one
+                extremist group."
+                row="bottomRow"
+              />
+              <News
+                pic="square5"
+                h3="The Community Reacts"
+                p="What were going through the minds of the locals during that
+                time."
+                row="bottomRow"
+              />
             </div>
           </div>
         </div>
         <div className="blockThree">
           <a id="oped" className="anchor" />
-          {}
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={45}
@@ -141,16 +106,15 @@ class WillardStraight extends React.Component {
             lockOnWindowScroll={true}
             dragEnabled={false}
           >
-            <Slider>
+            <Slider classNameAnimation="transition">
               <Slide index={0}>
-                <img
+                <Image
                   src={require("./images/opedHero2.png")}
                   alt="Oped Speaker One"
                 />
               </Slide>
-
               <Slide index={1}>
-                <img
+                <Image
                   src={require("./images/opedHero1.png")}
                   alt="Oped Speaker Two"
                 />
