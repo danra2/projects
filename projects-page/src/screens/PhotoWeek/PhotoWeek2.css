@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto");
+
+.photos-page-wrapper {
+  background-color:#1a1a1a;
+  height: 100%;
+  margin: 0;
+}
+
+.logo {
+  padding: 20px;
+  padding-left: 100px;
+  /* padding-right: 100px; */
+  display: inline-block;
+}
+
+.photo-block {
+  margin: 50px;
+  display: block;
+}
+
+.photo-img {
+  cursor: pointer;
+  width: 75%;
+  height: auto;
+  display: inline-block;
+}
+
+.gallery-container {
+  margin: 0px 50px;
+}
+
+.photo-description {
+  background-color: #1a1a1a;
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+}
+
+.photo-caption {
+  color: white;
+  margin: 0px;
+  font-size: 15px;
+  padding: 0px 20px;
+}
+
+.photo-credit {
+  color: #999999;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 20px;
+}
+
+.react-photo-gallery--gallery > * {
+  height: max-content !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .gallery-container {
+    margin: 0px 30px 0px 30px;
+  }
+
+  .photo-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .photo-description {
+    background-color: #1a1a1a;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .photo-caption {
+    padding: 10px 0px 0px 0px;
+  }
+  
+  .photo-credit {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 60px) {
+  .gallery-container {
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 58px;
+  margin-bottom: 10px;
+}
+
+.photos-header-gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(0deg, rgba(15, 15, 15, 0.9), rgba(15, 15, 15, 0) 60%);
+}
+
+.title-container {
+  /* float: right;
+  padding-right: 100px; */
+  /* margin: 10px auto 0 auto; */
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 0;
+  text-align: left;
+  z-index: 3;
+}
+
+.gallery-subtitle {
+  /* font-size: 18px; */
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 32px;
+  color: #F2F2F2;
+  padding: 0;
+  margin: 0;
+}
+
+.photos-credit {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.photos-page-header-2 {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  /* background-size: 100%; */
+  background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/BYT-SA-1.jpg');
+}

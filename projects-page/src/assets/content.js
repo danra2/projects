@@ -12,6 +12,13 @@ const content = [
   },
   {
     id: 1,
+    title: "April 15th, 2019: This Week in Photos",
+    description: "The best shots by our photo department this past week",
+    image: "https://cornellsun.com/wp-content/uploads/2019/04/BYT-SA-1.jpg",
+    url: "/week-in-photos-2"
+  }, 
+  {
+    id: 2,
     title:
       "Huawei paid Cornell $5.3 million for research contracts, most of any U.S. college in the last six years",
     description:
@@ -20,14 +27,14 @@ const content = [
     url: "/huawei"
   },
   {
-    id: 2,
-    title: "This Week in Photos",
+    id: 3,
+    title: "March 24rd, 2019: This Week in Photos",
     description: "The best shots by our photo department this past week",
     image: "https://cornellsun.com/wp-content/uploads/2019/02/BYT-Snow-9.jpg",
     url: "/week-in-photos"
   },
   {
-    id: 3,
+    id: 4,
     title: "How The Pumpkin Got on the Clocktower",
     description: "Re-solving The Greatest Mystery In Cornell History",
     image: image_1,
