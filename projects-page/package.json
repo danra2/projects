@@ -5,7 +5,7 @@
   "dependencies": {
     "node": "^11.13.0",
     "node-sass": "^4.11.0",
-    "pure-react-carousel": "^1.19.0",
+    "pure-react-carousel": "^1.19.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",

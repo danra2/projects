@@ -3,7 +3,6 @@ import './Huawei.css';
 import {Helmet} from "react-helmet";
 import Footer from '../../components/Footer/Footer.js';
 import "./Huawei.css";
-import Footer from "../../components/Footer/Footer.js";
 
 class Huawei extends React.Component {
   render() {
