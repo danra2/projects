@@ -1,15 +1,15 @@
-import image_1 from "../screens/Pumpkin/images/helicopter.png";
-import image_2 from "../screens/Huawei/images/huaweicover.jpg";
-import image_3 from "../screens/WillardStraightPromo/images/hero1.png";
+import pumpkin_cover from "../screens/Pumpkin/images/helicopter.png";
+import huawei_cover from "../screens/Huawei/images/huaweicover.jpg";
+import willard_cover from "../screens/WillardStraightPromo/images/hero1.png";
 
 const content = [
-  {
-    id: 0,
-    title: "Willard Straight's 50th Anniversary",
-    description: "",
-    image: image_3,
-    url: "/WillardStraight"
-  },
+  // {
+  //   id: 0,
+  //   title: "Willard Straight's 50th Anniversary",
+  //   description: "",
+  //   image: willard_cover,
+  //   url: "/WillardStraight"
+  // },
   {
     id: 1,
     title: "April 15th, 2019: This Week in Photos",
@@ -23,7 +23,7 @@ const content = [
       "Huawei paid Cornell $5.3 million for research contracts, most of any U.S. college in the last six years",
     description:
       "Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company.",
-    image: image_2,
+    image: huawei_cover,
     url: "/huawei"
   },
   {
@@ -37,7 +37,7 @@ const content = [
     id: 4,
     title: "How The Pumpkin Got on the Clocktower",
     description: "Re-solving The Greatest Mystery In Cornell History",
-    image: image_1,
+    image: pumpkin_cover,
     url: "/pumpkin"
   }
 ];
