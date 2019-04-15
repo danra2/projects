@@ -12,7 +12,7 @@ class App extends Component {
           </div>
         </div>
         <div className="timeline">
-          <div className="entry-container left">
+          <div id="first-entry-container" className="entry-container left">
             <div className="entry-content">
               <img className="entry-photo" alt="entry-photo-1" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
               <div className="entry-text-container">
