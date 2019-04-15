@@ -28,7 +28,7 @@ const content = [
   },
   {
     id: 3,
-    title: "March 24rd, 2019: This Week in Photos",
+    title: "March 24th, 2019: This Week in Photos",
     description: "The best shots by our photo department this past week",
     image: "https://cornellsun.com/wp-content/uploads/2019/02/BYT-Snow-9.jpg",
     url: "/week-in-photos"
