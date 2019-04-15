@@ -1,14 +1,6 @@
 import React from "react";
 import "./css/willard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  DotGroup,
-  Image
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
 import News from "./News.js";
 import Menu from "./Menu";
 import CustomCarousel from "./CustomCarousel"

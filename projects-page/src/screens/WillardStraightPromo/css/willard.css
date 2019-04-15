@@ -314,7 +314,6 @@ li a:focus {
 }
 .nav-link {
   color: gray !important;
-  /* font-size: 105%; */
 }
 
 #bootstrap-overrides .navbar-nav > li {
@@ -322,14 +321,14 @@ li a:focus {
 }
 
 .carousel-control-prev {
-  left: -5%;
+  left: -5% !important;
 }
 
 .carousel-control-next {
-  right: -5%;
+  right: -5% !important;
 }
 
-.button1 {
+/* .button1 {
   position: relative;
   top: -179px;
   width: 213px;
@@ -346,4 +345,9 @@ li a:focus {
   left: 85px;
   background-color: transparent;
   border-color: white;
+} */
+
+.carousel-inner > .active {
+  top: 50px !important;
+  padding-bottom: 50px !important;
 }

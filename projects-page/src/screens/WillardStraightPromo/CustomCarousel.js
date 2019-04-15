@@ -3,8 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselIndicators
 } from "reactstrap";
 
 const items = [
@@ -107,28 +106,38 @@ class CustomCarousel extends Component {
 export default CustomCarousel;
 
 {
-  /* <CarouselProvider
-            naturalSlideWidth={100}
-            naturalSlideHeight={45}
-            totalSlides={2}
-            isPlaying={true}
-            lockOnWindowScroll={true}
-            dragEnabled={false}
-          >
-            <Slider classNameAnimation="transition">
-              <Slide index={0}>
-                <Image
-                  src={require("./images/opedHero2.png")}
-                  alt="Oped Speaker One"
-                />
-              </Slide>
-              <Slide index={1}>
-                <Image
-                  src={require("./images/opedHero1.png")}
-                  alt="Oped Speaker Two"
-                />
-              </Slide>
-            </Slider>
-            <DotGroup className="dots" />
-          </CarouselProvider> */
+/* 
+    import {
+      CarouselProvider,
+      Slider,
+      Slide,
+      DotGroup,
+      Image
+    } from "pure-react-carousel";
+    import "pure-react-carousel/dist/react-carousel.es.css";
+
+    <CarouselProvider
+      naturalSlideWidth={100}
+      naturalSlideHeight={45}
+      totalSlides={2}
+      isPlaying={true}
+      lockOnWindowScroll={true}
+      dragEnabled={false}
+    >
+      <Slider classNameAnimation="transition">
+        <Slide index={0}>
+          <Image
+            src={require("./images/opedHero2.png")}
+            alt="Oped Speaker One"
+          />
+        </Slide>
+        <Slide index={1}>
+          <Image
+            src={require("./images/opedHero1.png")}
+            alt="Oped Speaker Two"
+          />
+        </Slide>
+      </Slider>
+      <DotGroup className="dots" />
+    </CarouselProvider> */
 }
