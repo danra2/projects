@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import LandingPage from "./screens/LandingPage.js";
 import PhotoWeek from "./screens/PhotoWeek/PhotoWeek.js";
+import PhotoWeek2 from "./screens/PhotoWeek/PhotoWeek2.js";
 import pumpkin from "./screens/Pumpkin/ptower.js";
 // import pumpkin from "./screens/template/template.js"; // TEMPLATE FOR NEWS
 import Huawei from "./screens/Huawei/Huawei.js";
@@ -15,6 +16,7 @@ class App extends Component {
           <Route exact path="/" component={LandingPage} />
           <Route path="/huawei" component={Huawei} />
           <Route path="/week-in-photos" component={PhotoWeek} />
+          <Route path="/week-in-photos-2" component={PhotoWeek2} />
           <Route path="/pumpkin" component={pumpkin} />
           <Route path="/WillardStraight" component={WillardStraight} />
         </Router>
