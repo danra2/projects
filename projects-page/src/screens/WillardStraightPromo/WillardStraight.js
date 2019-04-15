@@ -11,11 +11,14 @@ import {
 import "pure-react-carousel/dist/react-carousel.es.css";
 import News from "./News.js";
 import Menu from "./Menu";
+import CustomCarousel from "./CustomCarousel"
+import Footer from '../../components/Footer/Footer.js'; 
+
 
 class WillardStraight extends React.Component {
   render() {
     return (
-      <div>
+      <a>
         <meta charSet="UTF-8" />
         <title>Willard Straight 50th Anniversary</title>
         <meta
@@ -47,8 +50,8 @@ class WillardStraight extends React.Component {
             </div>
           </div>
         </div>
-        <div className="blockTwo">
-          <a id="news" className="anchor" />
+        <a className="blockTwo">
+          <div id="news" className="anchor" />
           <div className="container">
             <div className="row">
               <div className="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -95,38 +98,16 @@ class WillardStraight extends React.Component {
               />
             </div>
           </div>
-        </div>
+        </a>
         <div className="blockThree">
           <a id="oped" className="anchor" />
-          <CarouselProvider
-            naturalSlideWidth={100}
-            naturalSlideHeight={45}
-            totalSlides={2}
-            isPlaying={true}
-            lockOnWindowScroll={true}
-            dragEnabled={false}
-          >
-            <Slider classNameAnimation="transition">
-              <Slide index={0}>
-                <Image
-                  src={require("./images/opedHero2.png")}
-                  alt="Oped Speaker One"
-                />
-              </Slide>
-              <Slide index={1}>
-                <Image
-                  src={require("./images/opedHero1.png")}
-                  alt="Oped Speaker Two"
-                />
-              </Slide>
-            </Slider>
-            <DotGroup className="dots" />
-          </CarouselProvider>
-          <div className="blockFour">
-            <a id="timeline" className="anchor" />
-          </div>
+          <CustomCarousel />
         </div>
-      </div>
+        <div className="blockFour">
+          <a id="timeline" className="anchor" />
+        </div>
+        <Footer />
+      </a>
     );
   }
 }
