@@ -494,7 +494,7 @@ class pumpkin extends React.Component {
             </p>
             {}
           </div>
-          <div className="footer">
+          <div className="footer-pumpkin">
             <div className="row">
               <div className="col-sm-7 cols">
                 <p id="footer-credits">CREDITS</p>

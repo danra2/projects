@@ -1,6 +1,5 @@
 import React from "react";
 import './Huawei.css';
-import {Helmet} from "react-helmet";
 import Footer from '../../components/Footer/Footer.js';
 import "./Huawei.css";
 

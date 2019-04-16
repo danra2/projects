@@ -1,11 +1,10 @@
 import React from "react";
 import "./css/willard.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import News from "./News.js";
+import NewsBoxes from "./News.js";
 import Menu from "./Menu";
 import CustomCarousel from "./CustomCarousel"
 import Footer from '../../components/Footer/Footer.js'; 
-
 
 class WillardStraight extends React.Component {
   render() {
@@ -29,7 +28,7 @@ class WillardStraight extends React.Component {
         />
 
         <div className="blockOne">
-          {/* <a id="home" className="anchor" /> */}
+          <a id="home" className="anchor" />
           <Menu />
           <div className="container">
             <div className="justify-content-md-center">
@@ -50,45 +49,7 @@ class WillardStraight extends React.Component {
                 <h1>NEWS</h1>
               </div>
             </div>
-            <div className="row">
-              <News
-                pic="square1"
-                h3="Oral History of Sun Coverage"
-                p="This is the oral account of the Cornell Daily Sun coverage 
-                  throughout founding."
-                row="topRow"
-              />
-              <News
-                pic="square2"
-                h3="Timeline Cornell Protests"
-                p="Revisiting the initial sparks that triggered the cascade of
-                  events to follow."
-                row="topRow"
-              />
-              <News
-                pic="square3"
-                h3="Pulitzer Prize Winning Shot"
-                p="The story behind the iconic image that made headlines
-                throughout the mid 1900s."
-                row="topRow"
-              />
-            </div>
-            <div className="row">
-              <News
-                pic="square4"
-                h3="Good Intentions Gone Hostile"
-                p="What happended, and why. What were the motives behind one
-                extremist group."
-                row="bottomRow"
-              />
-              <News
-                pic="square5"
-                h3="The Community Reacts"
-                p="What were going through the minds of the locals during that
-                time."
-                row="bottomRow"
-              />
-            </div>
+            <NewsBoxes />
           </div>
         </a>
         <div className="blockThree">
@@ -97,6 +58,9 @@ class WillardStraight extends React.Component {
         </div>
         <div className="blockFour">
           <a id="timeline" className="anchor" />
+        </div>
+        <div className="blockFive">
+          <a id="photos" className="anchor" />
         </div>
         <Footer />
       </a>

@@ -77,47 +77,15 @@ li a:focus {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
-.bottomRow h3 {
-  margin-left: 29%;
-  font-family: BodoniBold;
-  font-size: 1.7em;
-  padding-top: 2%;
-}
-.bottomRow p {
-  margin-left: 29%;
-  padding-top: 3%;
-  font-size: 1.2em;
-  font-family: BodoniLight;
-}
 .squareShape {
   height: 230px;
   width: 300px;
   border: 5.5px solid gray;
   background-color: black;
+  cursor: pointer;
 }
-#square1 {
+#square {
   margin-top: 15%;
-  background-image: url("../images/news1.jpg");
-}
-#square2 {
-  margin-top: 15%;
-  background-image: url("../images/news2.jpg");
-}
-#square3 {
-  margin-top: 15%;
-  background-image: url("../images/news3.jpg");
-}
-#square4 {
-  margin-top: 16%;
-  margin-left: 30%;
-  padding-right: 10%;
-  background-image: url("../images/news4.jpg");
-}
-#square5 {
-  margin-top: 16%;
-  margin-left: 30%;
-  padding-right: 10%;
-  background-image: url("../images/news5.jpg");
 }
 .blockThree {
   margin-top: -3.5%;
@@ -206,46 +174,10 @@ li a:focus {
     padding-left: 7%;
   }
   .squareShape {
-    height: 230px;
-    width: 300px;
-    border: 5.5px solid gray;
-    background-color: black;
+    width: 100%;
   }
-  #square1 {
+  #square {
     margin-top: 7%;
-    background-image: url("../images/news1.jpg");
-  }
-  #square2 {
-    margin-top: 7%;
-    background-image: url("../images/news2.jpg");
-  }
-  #square3 {
-    margin-top: 7%;
-    background-image: url("../images/news3.jpg");
-  }
-  #square4 {
-    margin-top: 7%;
-    margin-left: 0%;
-    padding-right: 0%;
-    background-image: url("../images/news4.jpg");
-  }
-  #square5 {
-    margin-top: 7%;
-    margin-left: 0%;
-    padding-right: 0%;
-    background-image: url("../images/news5.jpg");
-  }
-  .bottomRow h3 {
-    margin-left: 0%;
-    font-family: Bodoni;
-    font-size: 1.8em;
-    padding-top: 2%;
-  }
-  .bottomRow p {
-    margin-left: 0%;
-    padding-top: 1%;
-    font-size: 1.3em;
-    font-family: BodoniLight;
   }
   .blockTwo h3 {
     font-family: Bodoni;
@@ -351,3 +283,4 @@ li a:focus {
   top: 50px !important;
   padding-bottom: 50px !important;
 }
+

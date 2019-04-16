@@ -5,9 +5,10 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink,
+  NavItem
+  // NavLink,
 } from "reactstrap";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -40,16 +41,29 @@ export default class Example extends React.Component {
             <br />
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#home">HOME</NavLink>
+                <NavLink to="#home" smooth={true} className="nav-link">
+                  HOME
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#news">NEWS</NavLink>
+                <NavLink to="#news" smooth={true} className="nav-link">
+                  NEWS
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#oped">OPED</NavLink>
+                <NavLink to="#oped" smooth={true} className="nav-link">
+                  OPED
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#timeline">TIMELINE</NavLink>
+                <NavLink to="#timeline" smooth={true} className="nav-link">
+                  TIMELINE
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="#photos" smooth={true} className="nav-link">
+                  PHOTOS
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
