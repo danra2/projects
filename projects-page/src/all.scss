@@ -2,12 +2,35 @@
 
 $font-primary: 'Open Sans', sans-serif; 
 $font-secondary: 'Roboto', sans-serif;
-$primary-gray: #222222;
-$secondary-gray: #4F4D49;
-$romance-gray: #F4EDE6;
-$primary-red: #9E2D2B;
-$primary-white: rgb(247, 247, 247); 
-$secondary-red: #A72F2A;
+
+$sun-gray-darker: #181818;
+$sun-gray-dark: #535353; 
+$sun-gray: #808080;
+$sun-gray-light: #A9A8A8; 
+$sun-gray-lighter: #D7D6D6; 
+
+$sun-red-darker: #4E0907; 
+$sun-red-dark: #741715; 
+$sun-red: #9E2E2B; 
+$sun-red-light: #C44A47; 
+$sun-red-lighter: #ED6E6B; 
+
+$sun-romance-gray-darker: #766361; 
+$sun-romance-gray-dark: #9E8887; 
+$sun-romance-gray: #C2AFAD; 
+$sun-romance-gray-light: #E8D8D8; 
+$sun-romance-gray-lighter: #FDF6F6; 
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-primary; 
+    font-weight: 700; 
+}
+
+div, p, span {
+    font-family: $font-secondary; 
+}
+
 
 %margins {
     margin: 24px 24px 24px 24px; 

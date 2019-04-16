@@ -1,7 +1,7 @@
 @import '../../all.scss'; 
 
 footer {
-    background-color: $secondary-gray;
+    background-color: $sun-gray;
     margin: none;
     display: flex; 
     flex-direction: row; 
@@ -13,14 +13,14 @@ footer {
 
     width: 282px;
     font-family: $font-secondary; 
-    color: $primary-white; 
+    color: white; 
     font-weight: 100;  
     font-size: 12px;
 }
 
 .footer-icon a {
     font-size: 18px; 
-    color: $primary-white; 
+    color: white; 
     padding-left: 24px;
 }
 
