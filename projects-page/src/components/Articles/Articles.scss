@@ -42,7 +42,7 @@
 .articles-image {
     height: 375px;
     background-position: center;
-    background-size: 125%;
+    background-size: 110%;
 
 }
 
@@ -54,6 +54,7 @@
 }
 
 .articles-description-p {
+    font-family: $font-secondary;
     font-size: 14px;
     color: grey;
 }

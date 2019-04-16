@@ -3,6 +3,7 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 import GalleryImage from './GalleryImage.js';
 import './PhotoWeek.css';
+import Footer from '../../components/Footer/Footer.js';
 
 class PhotoWeek extends Component {
 
@@ -87,6 +88,7 @@ class PhotoWeek extends Component {
             isOpen={this.state.lightboxIsOpen}
           />
         </div>
+        <Footer/>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import './ptower.css';
+import Footer from '../../components/Footer/Footer.js';
 
 class pumpkin extends React.Component {
   render() {
