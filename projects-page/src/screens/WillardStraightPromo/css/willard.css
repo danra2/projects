@@ -284,3 +284,6 @@ li a:focus {
   padding-bottom: 50px !important;
 }
 
+.carousel-hover:hover {
+  cursor: pointer;
+}

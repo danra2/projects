@@ -3,8 +3,6 @@
 }
 .wrapper {
   min-height: 775px;
-
-  background-image: url(images/hero1.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,12 +45,12 @@
 /* #helicopter {
   background-image: url(images/helicopter.png);
 } */
-#engineer {
+/* #engineer {
   background-image: url(images/engineer.png);
 }
 #rawlings {
   background-image: url(images/rawlings.png);
-}
+} */
 .quote-paragraph {
   margin-left: 18%;
   margin-right: 22%;

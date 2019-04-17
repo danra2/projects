@@ -5,15 +5,16 @@ import {
   CarouselControl,
   CarouselIndicators
 } from "reactstrap";
+import { Redirect } from "react-router";
 
 const items = [
   {
-    src: require("./images/opedHero2.png"),
-    button: "button1"
+    id: 1,
+    src: require("./images/opedHero1.png")
   },
   {
-    src: require("./images/opedHero1.png"),
-    button: "button2"
+    id: 2,
+    src: require("./images/opedHero2.png")
   }
 ];
 
@@ -59,18 +60,29 @@ class CustomCarousel extends Component {
     this.setState({ activeIndex: newIndex });
   }
 
+  handleOnClick = () => {
+    this.setState({ redirect: true });
+  };
+
   render() {
     const { activeIndex } = this.state;
 
     const slides = items.map(item => {
+      if (this.state.redirect) {
+        return <Redirect to={`/WillardStraight/opeds/${item.id}`} />;
+      }
       return (
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
-          {/* <button className={item.button} /> */}
+          <img
+            src={item.src}
+            alt={item.altText}
+            className="carousel-hover"
+            onClick={this.handleOnClick}
+          />
         </CarouselItem>
       );
     });
@@ -106,7 +118,7 @@ class CustomCarousel extends Component {
 export default CustomCarousel;
 
 {
-/* 
+  /* 
     import {
       CarouselProvider,
       Slider,

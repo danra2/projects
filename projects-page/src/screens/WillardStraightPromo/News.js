@@ -34,7 +34,7 @@ class News extends React.Component {
     }
 
     if (this.state.redirect) {
-      return <Redirect to="" />;
+      return <Redirect to={`/WillardStraight/news/${this.props.id}`} />;
     }
     return (
       <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 topRow">
@@ -63,6 +63,7 @@ export default class NewsBoxes extends React.Component {
     for (let i = 0; i < newscontent.length; i++) {
       rows.push(
         <News
+          id={i + 1}
           pic={newscontent[i].pic}
           h3={newscontent[i].h3}
           p={newscontent[i].p}
