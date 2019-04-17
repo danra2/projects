@@ -18,7 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.maintitle-desktop {
+.maintitle-desktop-wsh {
   text-align: left;
   font-size: 320%;
   font-family: "Open Sans", serif;
@@ -27,10 +27,10 @@
   position: relative;
   color: #a88c5d;
 }
-#first-line-desktop {
+#first-line-desktop-wsh {
   margin-top: 10%;
 }
-.byline-desktop {
+.byline-desktop-wsh {
   text-align: left;
   margin-top: 1%;
   margin-left: 12%;
@@ -143,7 +143,7 @@
   width: 100%;
   height: auto;
 }
-.sketch-caption {
+.sketch-caption-wsh {
   margin-left: 17%;
   width: 65%;
   margin-top: 0.5%;

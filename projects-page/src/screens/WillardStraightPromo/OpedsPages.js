@@ -61,17 +61,17 @@ class oped extends Component {
                   alt="Daily Sun"
                 />
               </a>
-              <p id="first-line-desktop" className="maintitle-desktop">
+              <p id="first-line-desktop-wsh" className="maintitle-desktop-wsh">
                 {content[i].title1}
               </p>
-              <p className="maintitle-desktop">{content[i].title2}</p>
-              <p className="maintitle-desktop">{content[i].title3}</p>
-              <p className="byline-desktop">{content[i].title_caption}</p>
+              <p className="maintitle-desktop-wsh">{content[i].title2}</p>
+              <p className="maintitle-desktop-wsh">{content[i].title3}</p>
+              <p className="byline-desktop-wsh">{content[i].title_caption}</p>
             </div>
             <div className="wrapper-mobile">
               <img src={content[i].parallax1} alt="" />
             </div>
-            <p className="sketch-caption" id="header-photo-caption">
+            <p className="sketch-caption-wsh" id="header-photo-caption">
               {content[i].sketch_caption}
             </p>
             <div className="content">
