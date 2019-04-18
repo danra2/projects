@@ -3,13 +3,13 @@ import huawei_cover from "../screens/Huawei/images/huaweicover.jpg";
 import willard_cover from "../screens/WillardStraightPromo/images/hero1.png";
 
 const content = [
-  // {
-  //   id: 0,
-  //   title: "Willard Straight's 50th Anniversary",
-  //   description: "",
-  //   image: willard_cover,
-  //   url: "/WillardStraight"
-  // },
+  {
+    id: 0,
+    title: "Willard Straight's 50th Anniversary",
+    description: "",
+    image: willard_cover,
+    url: "/WillardStraight"
+  },
   {
     id: 1,
     title: "April 15th, 2019: This Week in Photos",

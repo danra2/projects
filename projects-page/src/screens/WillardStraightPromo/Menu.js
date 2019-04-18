@@ -56,12 +56,12 @@ export default class Example extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="#timeline" smooth={true} className="nav-link">
+                <NavLink to="/WillardStraightTimeline" smooth={true} className="nav-link">
                   TIMELINE
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="#photos" smooth={true} className="nav-link">
+                <NavLink to="/WillardStraightPhotos" smooth={true} className="nav-link">
                   PHOTOS
                 </NavLink>
               </NavItem>
