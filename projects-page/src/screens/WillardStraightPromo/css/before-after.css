@@ -62,7 +62,15 @@
 
 @media only screen and (max-width: 1200px) {
   .before-after-gallery-container {
-    margin: 0px 30px 0px 30px;
+    margin: 0px;
+  }
+
+  .before-after-photo-full-img {
+    /* width: 75%; */
+    /* width: 100%; */
+    /* object-fit: cover; */
+    /* height: 100%; */
+    /* display: inline-block; */
   }
 
   .before-after-photo-img {
@@ -71,7 +79,7 @@
   }
 
   .before-after-photo-description {
-    background-color: #1a1a1a;
+    /* background-color: #1a1a1a; */
     display: inline-block;
     width: 100%;
   }
