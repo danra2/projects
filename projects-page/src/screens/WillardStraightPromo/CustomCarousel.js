@@ -10,7 +10,7 @@ import { Redirect } from "react-router";
 const items = [
   {
     id: 1,
-    src: require("./images/acree.png")
+    src: require("./images/jones.png")
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const items = [
   },
   {
     id: 4,
-    src: require("./images/jones.png")
+    src: require("./images/acree.png")
   },
 ];
 

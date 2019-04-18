@@ -9,31 +9,31 @@ const newscontent = [
     pic: square1,
     h3: "Timeline of the Willard Straight Hall Takeover",
     p:
-      "This brief timeline summarizes the crucial events that took place before the Takeover, based off of decades of Sun reporting."
+      "A summary of the crucial events that took place before the Takeover, based off of decades of Sun reporting."
   },
   {
     pic: square2,
     h3: "Behind the Pulitzer Prize-Winning Photograph",
     p:
-      "Revisiting the initial sparks that triggered the cascade of events to follow."
+      "The story behind the iconic image that made headlines throughout the mid 1900s."
   },
   {
     pic: square3,
-    h3: "Pulitzer Prize Winning Shot",
+    h3: "Sunnies Recall The Sun's Coverage of the Takeover",
     p:
-    "The story behind the iconic image that made headlines throughout the mid 1900s.",
+    "An oral history: Sun journalists share their Takeover experiences.",
   },
   {
     pic: square4,
-    h3: "Good Intentions Gone Hostile",
+    h3: "Fenton Sands '70 Documented Black Student Life at Cornell",
     p:
-    "What happended, and why. What were the motives behind one extremist group.",
+    "",
   },
   {
     pic: square5,
-    h3: "The Community Reacts",
+    h3: "A Look Into the National News Coverage of the Occupation",
     p:
-    "What were going through the minds of the locals during that time.",
+    "",
   },
   {
     pic: square1,
