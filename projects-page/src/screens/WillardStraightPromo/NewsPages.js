@@ -116,7 +116,7 @@ class news extends Component {
               </div>
 
               <p className="bodyparas">{content[i].p7}</p>
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-sm-6 cols">
                   <img
                     className="in-text-img"
@@ -132,7 +132,7 @@ class news extends Component {
                     {content[i].quote3_1}
                   </p>
                 </div>
-              </div>
+              </div> */}
               <p className="bodyparas">
                 <span className="large-letter">{content[i].large_letter2}</span>
                 {content[i].p8}
@@ -153,7 +153,7 @@ class news extends Component {
                 </div>
               </div>
               <p className="bodyparas" />
-              <p className="divider bodyparas">. . . . .</p>
+              {/* <p className="divider bodyparas">. . . . .</p> */}
               <p className="bodyparas ital">{content[i].p12}</p>
               <p className="bodyparas ital">{content[i].p13}</p>
               <p className="bodyparas">
@@ -204,13 +204,13 @@ class news extends Component {
                   <p className="pull-quote-para">{content[i].p33}</p>
                   <p className="pull-quote-para">{content[i].p34}</p>
                 </div>
-                <div className="col-sm-4 cols">
+                {/* <div className="col-sm-4 cols">
                   <div className="pull-quote">
                     <p className="pull-quote-line">_______________</p>
                     <p className="pull-quote-content">{content[i].quote5}</p>
                     <p className="pull-quote-line">_______________</p>
                   </div>
-                </div>
+                </div> */}
               </div>
               <p className="bodyparas">{content[i].p35}</p>
               <p className="bodyparas">{content[i].p36}</p>
@@ -219,7 +219,7 @@ class news extends Component {
                 {content[i].p37}
               </p>
             </div>
-            <div
+            {/* <div
               className="parallaximage"
               style={{ backgroundImage: `url(${content[i].parallax3})` }}
             />
@@ -227,7 +227,7 @@ class news extends Component {
             <p className="sketch-caption">
               <span className="img-caption-bold">{content[i].parallax3_1}</span>
               {content[i].parallax3_2}
-            </p>
+            </p> */}
             <div className="content">
               <p className="bodyparas">{content[i].p38}</p>
               <p className="bodyparas">{content[i].p39}</p>
