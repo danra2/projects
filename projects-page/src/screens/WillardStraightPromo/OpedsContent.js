@@ -21,10 +21,10 @@ const opedscontent = [
     large_letter2: "",
     p8: "",
     p9: "",
-    p10: "", // Left of quote4. 
-    p11: "", // Below Quote
+    p10: "",  
+    p11: "", // Left of Quote4
     quote4: "",
-    p12: "",
+    p12: "", // Below of Quote4
     p13: "",
     
     p44: "Thomas W. Jones ’69 was a spokesman for the Afro-American Society at the time of the Willard Straight Hall takeover. After graduating Cornell, he went on to serve as chairman and chief executive officer of Global Investment Management at Citigroup, president and chief operating officer of TIAA-CREF, and as a member of the Cornell Board of Trustees. He is the author of a memoir, From Willard Straight to Wall Street, published by Cornell University Press. "
