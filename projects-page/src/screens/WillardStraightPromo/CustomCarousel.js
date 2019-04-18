@@ -10,12 +10,20 @@ import { Redirect } from "react-router";
 const items = [
   {
     id: 1,
-    src: require("./images/opedHero1.png")
+    src: require("./images/acree.png")
   },
   {
     id: 2,
-    src: require("./images/opedHero2.png")
-  }
+    src: require("./images/davis.png")
+  },
+  {
+    id: 3,
+    src: require("./images/harrison.png")
+  },
+  {
+    id: 4,
+    src: require("./images/jones.png")
+  },
 ];
 
 class CustomCarousel extends Component {

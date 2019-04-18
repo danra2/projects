@@ -7,13 +7,13 @@ import square5 from "./images/news5.jpg";
 const newscontent = [
   {
     pic: square1,
-    h3: "Oral History of Sun Coverage",
+    h3: "Timeline of the Willard Straight Hall Takeover",
     p:
-      "This is the oral account of the Cornell Daily Sun coverage throughout founding."
+      "This brief timeline summarizes the crucial events that took place before the Takeover, based off of decades of Sun reporting."
   },
   {
     pic: square2,
-    h3: "Timeline Cornell Protests",
+    h3: "Behind the Pulitzer Prize-Winning Photograph",
     p:
       "Revisiting the initial sparks that triggered the cascade of events to follow."
   },
