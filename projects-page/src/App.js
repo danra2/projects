@@ -12,23 +12,19 @@ import NewsPagesContent from "./screens/WillardStraightPromo/NewsPagesContent.js
 import OpedsContent from "./screens/WillardStraightPromo/OpedsContent.js";
 import NewsPages from "./screens/WillardStraightPromo/NewsPages.js";
 
-function WSHNews() {
-  return <NewsPages />
-}
-function OpedsPage() {
-  return <OpedsPages />
-}
-
 function WSH({ match }) {
   var rows = [];
   for (let i = 1; i < OpedsContent.length + 1; i++) {
     rows.push(
-      <Route path={`${match.path}/opeds/${i}`} component={OpedsPage} />
+      <Route
+        path={`${match.path}/opeds/${i}`}
+        component={() => <OpedsPages i={i} />}
+      />
     );
   }
   for (let i = 1; i < NewsPagesContent.length + 1; i++) {
     rows.push(
-      <Route path={`${match.path}/news/${i}`} component={WSHNews} />
+      <Route path={`${match.path}/news/${i}`} component={() => <NewsPages />} />
     );
   }
   return (
@@ -40,7 +36,6 @@ function WSH({ match }) {
 }
 
 class App extends Component {
-
   render() {
     return (
       <div className="App">

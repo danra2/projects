@@ -6,8 +6,37 @@ import Footer from "../../components/Footer/Footer.js";
 
 class oped extends Component {
   render() {
+    var longerOped;
     const rows = [];
     for (let i = 0; i < content.length; i++) {
+      if (!content[i].p7 == "") {
+        longerOped = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">
+              <span className="large-letter">{content[i].large_letter2}</span>
+              {content[i].p8}
+            </p>
+            <p className="bodyparas">{content[i].p9}</p>
+            <div className="row quote-paragraph">
+              <div className="col-sm-8 cols">
+                <p className="pull-quote-para" />
+                <p className="pull-quote-para">{content[i].p10}</p>
+              </div>
+              <div className="col-sm-4 cols">
+                <div className="pull-quote">
+                  <p className="pull-quote-line">_______________</p>
+                  <p className="pull-quote-content">{content[i].quote4}</p>
+                  <p className="pull-quote-line">_______________</p>
+                </div>
+              </div>
+            </div>
+            <p className="bodyparas">{content[i].p11}</p>
+            <p className="bodyparas">{content[i].p12}</p>
+            <p className="bodyparas">{content[i].p13}</p>
+          </div>
+        );
+      }
       rows.push(
         <div>
           <div>
@@ -86,7 +115,6 @@ class oped extends Component {
               <div className="row quote-paragraph">
                 <div className="col-sm-8 cols">
                   <p className="pull-quote-para">{content[i].p4}</p>
-                  <p className="pull-quote-para">{content[i].p5}</p>
                 </div>
                 <div className="col-sm-4 cols">
                   <div className="pull-quote">
@@ -96,149 +124,9 @@ class oped extends Component {
                   </div>
                 </div>
               </div>
+              <p className="bodyparas">{content[i].p5}</p>
               <p className="bodyparas">{content[i].p6}</p>
-              <div className="row">
-                <div className="col-sm-6 cols">
-                  <img
-                    className="in-text-img"
-                    src={`${content[i].image1}`}
-                    alt=""
-                  />
-                </div>
-                <div className="col-sm-6 cols">
-                  <p className="img-caption">
-                    <span className="img-caption-bold">
-                      {content[i].quote2}
-                    </span>
-                    {content[i].quote2_1}
-                  </p>
-                </div>
-              </div>
-
-              <p className="bodyparas">{content[i].p7}</p>
-              <div className="row">
-                <div className="col-sm-6 cols">
-                  <img
-                    className="in-text-img"
-                    src={`${content[i].image2}`}
-                    alt=""
-                  />
-                </div>
-                <div className="col-sm-6 cols">
-                  <p className="img-caption">
-                    <span className="img-caption-bold">
-                      {content[i].quote3}
-                    </span>
-                    {content[i].quote3_1}
-                  </p>
-                </div>
-              </div>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter2}</span>
-                {content[i].p8}
-              </p>
-              <p className="bodyparas">{content[i].p9}</p>
-              <div className="row quote-paragraph">
-                <div className="col-sm-8 cols">
-                  <p className="pull-quote-para" />
-                  <p className="pull-quote-para">{content[i].p10}</p>
-                  <p className="pull-quote-para">{content[i].p11}</p>
-                </div>
-                <div className="col-sm-4 cols">
-                  <div className="pull-quote">
-                    <p className="pull-quote-line">_______________</p>
-                    <p className="pull-quote-content">{content[i].quote4}</p>
-                    <p className="pull-quote-line">_______________</p>
-                  </div>
-                </div>
-              </div>
-              <p className="bodyparas" />
-              <p className="divider bodyparas">. . . . .</p>
-              <p className="bodyparas ital">{content[i].p12}</p>
-              <p className="bodyparas ital">{content[i].p13}</p>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter3}</span>
-                {content[i].p14}
-              </p>
-              <p className="bodyparas">{content[i].p15}</p>
-              <p className="bodyparas">{content[i].p16}</p>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter4}</span>
-                {content[i].p17}
-              </p>
-              <p className="bodyparas">{content[i].p18}</p>
-              <p className="bodyparas">{content[i].p19}</p>
-              <p className="bodyparas">{content[i].p20}</p>
-              <p className="bodyparas">{content[i].p21}</p>
-              <p className="bodyparas">{content[i].p21}</p>
-            </div>
-            <div
-              className="parallaximage"
-              style={{ backgroundImage: `url(${content[i].parallax2})` }}
-            />
-
-            <p className="sketch-caption">
-              <span className="img-caption-bold">{content[i].parallax2_1}</span>
-              {content[i].parallax2_2}
-            </p>
-            <div className="content">
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter5}</span>
-                {content[i].p22}
-              </p>
-              <p className="bodyparas">{content[i].p23}</p>
-              <p className="bodyparas">{content[i].p24}</p>
-              <p className="bodyparas">{content[i].p25}</p>
-              <p className="bodyparas">{content[i].p26}</p>
-              <p className="bodyparas">{content[i].p27}</p>
-              <p className="bodyparas">{content[i].p28}</p>
-              <p className="bodyparas">{content[i].p29}</p>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter6}</span>
-                {content[i].p30}
-              </p>
-              <p className="bodyparas">{content[i].p31}</p>
-              <div className="row quote-paragraph">
-                <div className="col-sm-8 cols">
-                  <p className="pull-quote-para">{content[i].p32}</p>
-                  <p className="pull-quote-para">{content[i].p33}</p>
-                  <p className="pull-quote-para">{content[i].p34}</p>
-                </div>
-                <div className="col-sm-4 cols">
-                  <div className="pull-quote">
-                    <p className="pull-quote-line">_______________</p>
-                    <p className="pull-quote-content">{content[i].quote5}</p>
-                    <p className="pull-quote-line">_______________</p>
-                  </div>
-                </div>
-              </div>
-              <p className="bodyparas">{content[i].p35}</p>
-              <p className="bodyparas">{content[i].p36}</p>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter7}</span>
-                {content[i].p37}
-              </p>
-            </div>
-            <div
-              className="parallaximage"
-              style={{ backgroundImage: `url(${content[i].parallax3})` }}
-            />
-
-            <p className="sketch-caption">
-              <span className="img-caption-bold">{content[i].parallax3_1}</span>
-              {content[i].parallax3_2}
-            </p>
-            <div className="content">
-              <p className="bodyparas">{content[i].p38}</p>
-              <p className="bodyparas">{content[i].p39}</p>
-              <p className="bodyparas">{content[i].p40}</p>
-              <p className="bodyparas">
-                <span className="large-letter">{content[i].large_letter8}</span>
-                {content[i].p41}
-              </p>
-              <p className="bodyparas">{content[i].p42}</p>
-              <p className="bodyparas">{content[i].p43}</p>
-              <br />
+              {longerOped}
               <p className="bodyparas credits">{content[i].p44}</p>
             </div>
             <Footer />
@@ -247,7 +135,7 @@ class oped extends Component {
       );
     }
 
-    return rows;
+    return rows[this.props.i - 1];
   }
 }
 export default oped;
