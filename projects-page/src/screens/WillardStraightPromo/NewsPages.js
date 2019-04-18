@@ -247,7 +247,7 @@ class news extends Component {
       );
     }
 
-    return rows;
+    return rows[this.props.i - 1];
   }
 }
 export default news;

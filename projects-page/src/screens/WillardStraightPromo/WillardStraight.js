@@ -56,12 +56,6 @@ class WillardStraight extends React.Component {
           <a id="oped" className="anchor" />
           <CustomCarousel />
         </div>
-        <div className="blockFour">
-          <a id="timeline" className="anchor" />
-        </div>
-        <div className="blockFive">
-          <a id="photos" className="anchor" />
-        </div>
         <Footer />
       </a>
     );

@@ -24,7 +24,10 @@ function WSH({ match }) {
   }
   for (let i = 1; i < NewsPagesContent.length + 1; i++) {
     rows.push(
-      <Route path={`${match.path}/news/${i}`} component={() => <NewsPages />} />
+      <Route
+        path={`${match.path}/news/${i}`}
+        component={() => <NewsPages i={i} />}
+      />
     );
   }
   return (
@@ -39,7 +42,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router >
           <Route exact path="/" component={LandingPage} />
           <Route path="/huawei" component={Huawei} />
           <Route path="/week-in-photos" component={PhotoWeek} />
