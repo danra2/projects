@@ -52,7 +52,7 @@ export default class Example extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink to="#oped" smooth={true} className="nav-link">
-                  OPED
+                  OPINION
                 </NavLink>
               </NavItem>
               <NavItem>
