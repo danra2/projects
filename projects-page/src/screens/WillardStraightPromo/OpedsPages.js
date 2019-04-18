@@ -3,25 +3,52 @@ import "../template/template.css";
 import content from "./OpedsContent.js";
 import Footer from "../../components/Footer/Footer.js";
 // import { Link } from "react-router-dom";
-
 class oped extends Component {
   render() {
-    var longerOped;
     const rows = [];
+    var div;
     for (let i = 0; i < content.length; i++) {
-      if (!content[i].p7 == "") {
-        longerOped = (
+      if (content[i].p7 != "") {
+        div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
-            <p className="bodyparas">
-              <span className="large-letter">{content[i].large_letter2}</span>
-              {content[i].p8}
-            </p>
+          </div>
+        );
+      } else if (content[i].p8 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
+          </div>
+        );
+      } else if (content[i].p9 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
             <p className="bodyparas">{content[i].p9}</p>
+          </div>
+        );
+      } else if (content[i].p10 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
+            <p className="bodyparas">{content[i].p9}</p>
+            <p className="bodyparas">{content[i].p10}</p>
+          </div>
+        );
+      } else if (content[i].p11 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
+            <p className="bodyparas">{content[i].p9}</p>
+            <p className="bodyparas">{content[i].p10}</p>
             <div className="row quote-paragraph">
               <div className="col-sm-8 cols">
                 <p className="pull-quote-para" />
-                <p className="pull-quote-para">{content[i].p10}</p>
+                <p className="pull-quote-para">{content[i].p11}</p>
               </div>
               <div className="col-sm-4 cols">
                 <div className="pull-quote">
@@ -31,7 +58,51 @@ class oped extends Component {
                 </div>
               </div>
             </div>
-            <p className="bodyparas">{content[i].p11}</p>
+          </div>
+        );
+      } else if (content[i].p12 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
+            <p className="bodyparas">{content[i].p9}</p>
+            <p className="bodyparas">{content[i].p10}</p>
+            <div className="row quote-paragraph">
+              <div className="col-sm-8 cols">
+                <p className="pull-quote-para" />
+                <p className="pull-quote-para">{content[i].p11}</p>
+              </div>
+              <div className="col-sm-4 cols">
+                <div className="pull-quote">
+                  <p className="pull-quote-line">_______________</p>
+                  <p className="pull-quote-content">{content[i].quote4}</p>
+                  <p className="pull-quote-line">_______________</p>
+                </div>
+              </div>
+            </div>
+            <p className="bodyparas">{content[i].p12}</p>
+          </div>
+        );
+      } else if (content[i].p13 != "") {
+        div = (
+          <div>
+            <p className="bodyparas">{content[i].p7}</p>
+            <p className="bodyparas">{content[i].p8}</p>
+            <p className="bodyparas">{content[i].p9}</p>
+            <p className="bodyparas">{content[i].p10}</p>
+            <div className="row quote-paragraph">
+              <div className="col-sm-8 cols">
+                <p className="pull-quote-para" />
+                <p className="pull-quote-para">{content[i].p11}</p>
+              </div>
+              <div className="col-sm-4 cols">
+                <div className="pull-quote">
+                  <p className="pull-quote-line">_______________</p>
+                  <p className="pull-quote-content">{content[i].quote4}</p>
+                  <p className="pull-quote-line">_______________</p>
+                </div>
+              </div>
+            </div>
             <p className="bodyparas">{content[i].p12}</p>
             <p className="bodyparas">{content[i].p13}</p>
           </div>
@@ -126,7 +197,7 @@ class oped extends Component {
               </div>
               <p className="bodyparas">{content[i].p5}</p>
               <p className="bodyparas">{content[i].p6}</p>
-              {longerOped}
+              {div}
               <p className="bodyparas credits">{content[i].p44}</p>
             </div>
             <Footer />
