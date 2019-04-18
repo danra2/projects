@@ -8,6 +8,7 @@ import Huawei from "./screens/Huawei/Huawei.js";
 import WillardStraight from "./screens/WillardStraightPromo/WillardStraight.js";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import WillardTimeline from "./screens/WillardStraightPromo/WillardTimeline.js";
+import WillardPhotos from "./screens/WillardStraightPromo/BeforeAfterPhotos";
 import OpedsPages from "./screens/WillardStraightPromo/OpedsPages.js";
 import NewsPagesContent from "./screens/WillardStraightPromo/NewsPagesContent.js";
 import OpedsContent from "./screens/WillardStraightPromo/OpedsContent.js";
@@ -51,6 +52,7 @@ class App extends Component {
           <Route path="/pumpkin" component={pumpkin} />
           <Route path="/WillardStraight" component={WSH} />
           <Route path="/WillardStraightTimeline" component={WillardTimeline} />
+          <Route path="/WillardStraightPhotos" component={WillardPhotos} />
         </Router>
       </div>
     );
