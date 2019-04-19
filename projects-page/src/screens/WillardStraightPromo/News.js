@@ -24,7 +24,7 @@ class News extends React.Component {
     if (this.state.hover) {
       customStyle = {
         borderColor: "#a88c5d",
-        backgroundImage: `url(${this.props.pic})`
+        backgroundImage: `url(${this.props.pic})`,
       };
     } else {
       customStyle = {
