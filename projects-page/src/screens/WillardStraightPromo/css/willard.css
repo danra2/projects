@@ -83,7 +83,7 @@ li a:focus {
   border: 5.5px solid gray;
   background-color: black;
   cursor: pointer;
-  background-size: contain;
+  background-size: cover;
 }
 #square {
   margin-top: 15%;
@@ -213,6 +213,13 @@ li a:focus {
   .blockThree img {
     width: 160%;
     height: 150%;
+  }
+  .carousel-control-prev {
+    padding-top: 15% !important;
+  }
+
+  .carousel-control-next {
+    padding-top: 15% !important;
   }
 }
 
