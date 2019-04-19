@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import './css/willard-timeline.css';
+import Footer from '../../components/Footer/Footer.js';
 
 class App extends Component {
   render() {
     return (
       <div className="wsh-timeline-app">
-        <div className="timeline-header">
+        <div className="timeline-header"></div>
+        <div className="timeline-caption-container">
+          <p> Drawn by Alicia Wang</p>
         </div>
         <div className="timeline-title-container">
-            <h2 className="timeline-title"> Occupations Throughout Cornell’s History </h2>
-            <h3 className="timeline-subtitle"> A Timeline of Events </h3>
-          </div>
+          <h2 className="timeline-title"> Occupations Throughout Cornell’s History </h2>
+          <h3 className="timeline-subtitle"> A Timeline of Events </h3>
+        </div>
         <div className="timeline">
           <div id="first-entry-container" className="entry-container left">
             <div className="entry-content">
@@ -111,6 +114,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     );
   }

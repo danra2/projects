@@ -15,6 +15,11 @@
     background-size: cover;
     background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/sun-timelinecover.png');
   }
+
+  .timeline-caption-container {
+    text-align: right;
+    padding: 5px;
+  }
   
   .timeline-title-container {
     text-align: center;
