@@ -216,7 +216,7 @@ const content = [
       p21: "Ultimately, the media response to the Willard Straight Hall occupation — its sentiment that the event was violent, catastrophic, and perhaps unnecessary — is summed by Newsweek. “The traumatic events at Cornell took place in a week when the U.S. campus seems to have turned into a national battleground.” ",
       parallax2: behind1,
       parallax2_1: "The famous Newsweek Magazine cover. ",
-      p44: "Kathryn Stamm can be reached at kstamm@cornellsun.com. ",
+      p44: "Kathryn Stamm can be reached at kstamm@cornellsun.com.",
     },
   ];
 
