@@ -73,6 +73,7 @@
 
 .before-after-multiple-photo-block {
   display: inline-block;
+  width: 50%;
 }
 
 .before-after-react-photo-gallery--gallery > * {
@@ -82,6 +83,11 @@
 @media only screen and (max-width: 1200px) {
   .before-after-gallery-container {
     margin: 0px;
+  }
+
+  .before-after-slider-photo-block {
+    margin: 30px 75px;
+    display: block;
   }
 
   .before-after-photo-full-img {
@@ -100,7 +106,7 @@
   .before-after-photo-description {
     /* background-color: #1a1a1a; */
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .before-after-photo-caption {

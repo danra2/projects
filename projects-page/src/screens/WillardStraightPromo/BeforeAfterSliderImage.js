@@ -45,21 +45,21 @@ const SliderImage = ({
       return (
           <div className="before-after-photo-full-block">
             <img className="before-after-photo-full-img" {...photo}/>
-            {/* <div className="photo-description"> 
-            <p className="photo-caption"> {photo.caption} </p>
-            <p className="photo-credit"> {photo.credit} </p>
-            </div> */}
+            <div className="before-after-photo-description"> 
+              <p className="before-after-photo-caption"> {photo.caption} </p>
+              <p className="before-after-photo-credit"> {photo.credit} </p>
+            </div> 
           </div>
         );
       }
     else {
       return (
-          <div className="before-after-multiple-photo">
+          <div className="before-after-multiple-photo-block">
             <img {...photo}/>
-            {/* <div className="photo-description"> 
-            <p className="photo-caption"> {photo.caption} </p>
-            <p className="photo-credit"> {photo.credit} </p>
-            </div> */}
+            <div className="before-after-photo-description"> 
+              <p className="before-after-photo-caption"> {photo.caption} </p>
+              <p className="before-after-photo-credit"> {photo.credit} </p>
+            </div>  
           </div>
         );
       }
