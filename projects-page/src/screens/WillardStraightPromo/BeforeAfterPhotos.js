@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 import SliderImage from './BeforeAfterSliderImage.js';
 import './css/before-after.css';
+import Footer from '../../components/Footer/Footer.js';
 
 class App extends Component {
 
@@ -82,6 +83,9 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <div className="before-after-caption-container">
+          <p>Fenton Sands ’70</p>
+        </div>
         <div className="before-after-title-container">
           <h2 className="before-after-gallery-title"> Inside the Occupied Straight </h2>
           <h3 className="before-after-gallery-subtitle"> Fenton Sands ’70, One of the Afro-American Society Members Who Took Over the Straight in 1969, Shares His 
@@ -89,11 +93,12 @@ class App extends Component {
           {/* <p className="photos-credit"><span> Photographs by Cornell Daily Sun Photography Department </span></p> */}
         </div>
         <div className="before-after-gallery-container">
-          <Gallery style={{maxHeight: "fit-content"}} photos={photos} columns={1} direction="column" ImageComponent={SliderImage}/>
-          <Gallery style={{maxHeight: "fit-content"}} photos={photos3} columns={2} direction="row" ImageComponent={SliderImage}/>
-          <Gallery style={{maxHeight: "fit-content"}} photos={photos2} columns={1} direction="column" ImageComponent={SliderImage}/>
+          <Gallery key="gallery-1" style={{maxHeight: "fit-content"}} photos={photos} columns={1} direction="column" ImageComponent={SliderImage}/>
+          <Gallery key="gallery-2"  style={{maxHeight: "fit-content"}} photos={photos3} columns={2} direction="row" ImageComponent={SliderImage}/>
+          <Gallery key="gallery-3"  style={{maxHeight: "fit-content"}} photos={photos2} columns={1} direction="column" ImageComponent={SliderImage}/>
           {/* <Gallery style={{maxHeight: "fit-content"}} photos={photos} columns={1} direction="column" ImageComponent={SliderImage}/> */}
         </div>
+        <Footer/>
       </div>
     );
   }
