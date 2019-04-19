@@ -83,6 +83,7 @@ li a:focus {
   border: 5.5px solid gray;
   background-color: black;
   cursor: pointer;
+  background-size: contain;
 }
 #square {
   margin-top: 15%;
@@ -92,7 +93,6 @@ li a:focus {
 }
 .blockThree img {
   width: 100%;
-  height: 860px;
 }
 .blockFour {
   padding-bottom: 13%;
@@ -159,16 +159,8 @@ li a:focus {
     margin-left: auto;
     margin-right: auto;
   }
-  .blockThree img {
-    height: 700px;
-  }
 }
 
-@media only screen and (max-width: 1350px) {
-  .blockThree img {
-    height: 560px;
-  }
-}
 @media only screen and (max-width: 991px) {
   .blockTwo {
     padding-left: 7%;
@@ -189,9 +181,6 @@ li a:focus {
     font-size: 1.3em;
     font-family: BodoniLight;
   }
-  .blockThree img {
-    height: 500px;
-  }
 }
 @media only screen and (max-width: 767px) {
   #navbar {
@@ -203,9 +192,6 @@ li a:focus {
     display: block;
     text-align: center;
     list-style-type: none;
-  }
-  .blockThree img {
-    height: 400px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -225,7 +211,8 @@ li a:focus {
     margin-right: auto;
   }
   .blockThree img {
-    height: 300px;
+    width: 160%;
+    height: 150%;
   }
 }
 
