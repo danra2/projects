@@ -27,6 +27,9 @@
   position: relative;
   color: #a88c5d;
 }
+  .maintitle-desktop-wsh-first {
+    margin-top: 15%;
+  }
 .byline-desktop-wsh {
   text-align: left;
   margin-top: 1%;
@@ -87,9 +90,17 @@
   font-weight: 400;
 }
 
-#maintitle {
+#maintitle-opeds {
   text-align: left;
-  font-size: 270%;
+  font-size: 320%;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  margin-left: 18%;
+  color: #a88c5d;
+}
+#maintitle-news {
+  text-align: left;
+  font-size: 320%;
   font-family: "Open Sans", serif;
   font-weight: 800;
   margin-left: 18%;
@@ -102,7 +113,20 @@
   padding-bottom: 3%;
 }
 
-#byline {
+#byline-news {
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 18%;
+  color: #666;
+  font-style: italic;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-size: 150%;
+  position: relative;
+}
+
+#byline-opeds{
   text-align: left;
   margin-top: 1%;
   margin-left: 18%;
@@ -253,6 +277,7 @@
   .wrapper-mobile {
     display: none;
   }
+
 }
 @media only screen and (max-width: 1000px) {
   #sunlogo {
@@ -260,8 +285,24 @@
   }
 }
 @media only screen and (max-width: 1000px) {
-  #maintitle {
+  #maintitle-news {
     font-size: 200%;
+  }
+  #maintitle-opeds{
+    font-size: 200%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .maintitle-desktop-wsh-first {
+    margin-top: 30%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #maintitle-opeds {
+    display: none;
+  }
+  #byline-opeds {
+    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -305,6 +346,10 @@
   }
   .wrapper {
     background-position: right;
+    display: none;
+  }
+  #byline-news {
+    font-size: 110%;
   }
 }
 
@@ -328,7 +373,10 @@
   .sketch {
     display: block;
   }
-  #maintitle {
+  #maintitle-news {
+    font-size: 190%;
+  }
+  #maintitle-opeds{
     font-size: 190%;
   }
 }

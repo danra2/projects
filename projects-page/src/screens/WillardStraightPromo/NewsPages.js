@@ -3,6 +3,7 @@ import "../template/template.css";
 import content from "./NewsPagesContent.js";
 import Footer from "../../components/Footer/Footer.js";
 // import { Link } from "react-router-dom";
+import References from "./references.js";
 
 class news extends Component {
   render() {
@@ -69,8 +70,8 @@ class news extends Component {
               {content[i].sketch_caption}
             </p>
             <div className="content">
-              <div id="maintitle">{content[i].title}</div>
-              <div id="byline">{content[i].title_caption}</div>
+              <div id="maintitle-news">{content[i].title}</div>
+              <div id="byline-news">{content[i].title_caption}</div>
               <p className="bodyparas">
                 <span className="large-letter">{content[i].large_letter1}</span>
                 {content[i].p1}
@@ -219,6 +220,7 @@ class news extends Component {
               <br />
               <p className="bodyparas credits">{content[i].p44}</p>
             </div>
+            <References i={i} />
             <Footer />
           </div>
         </div>

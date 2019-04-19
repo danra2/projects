@@ -13,13 +13,10 @@ import fenton2 from "./images/fenton2.jpg";
 import fenton3 from "./images/fenton3.jpg";
 import alook1 from "./images/alook1.png";
 import agents1 from "./images/agents1.jpg";
-import agents2 from "./images/agents2.jpg";
+import agents2 from "./images/agents2.jpeg";
 
 const content = [
   {
-    title1: "Timeline of",
-    title2: "the Willard Straight",
-    title3: "Hall Takeover",
     title: "Timeline of the Willard Straight Hall Takeover",
     title_caption: "By Yuichi Kakutani",
     parallax1: img1,
@@ -68,8 +65,6 @@ const content = [
     p44: "Yuichi Kakutani is a member of the Class of 2019 in the College of Arts and Sciences. He was a News Editor on the 136th editorial board and can be reached at ykakutani@cornellsun.com."
     }, 
     {
-      title1: "Behind the Pulitzer",
-      title2: "Prize-Winning Photograph",
       title: "Behind the Pulitzer Prize-Winning Photograph",
       title_caption: "By Amina Kilpatrick",
       parallax1: behind1,
@@ -193,7 +188,7 @@ const content = [
       title_caption: "By Kathryn Stamm",
       parallax1: alook1,
       large_letter1: "T",
-      p1: `The Willard Straight Hall Occupation — described in 1999 by former professor Thomas Sowell as \“${<a href="https://www.hoover.org/research/day-cornell-died">the day Cornell died</a>}the day Cornell died\” — symbolized an era of national change and turmoil, full of questions about race. As the country turned their attention to the events unfolding in Ithaca in the following weeks, major news organizations often painted the event as violent and centered their narratives on the resulting white fear. `,
+      p1: `The Willard Straight Hall Occupation — described in 1999 by former professor Thomas Sowell as \“the day Cornell died\”[1] — symbolized an era of national change and turmoil, full of questions about race. As the country turned their attention to the events unfolding in Ithaca in the following weeks, major news organizations often painted the event as violent and centered their narratives on the resulting white fear. `,
       p2: "Pictures of armed black students marching across campus plastered national newspapers, underscored by headlines about a violent crisis, likening the occupation to a battle in a war. However, when the black occupants initially entered the Straight, they were unarmed and no one was reported injured. ",
       p3: "On April 19, 1969, at 5:30 a.m., approximately 100 African-American students occupied Willard Straight Hall, ejecting 40 staff members and 30 Parents’ Weekend visitors by shouting “Fire!” The Sun previously reported. ",
       p4: "This occurred in the midst of one of the most racially difficult times on the Hill. In the fall of 1968, there were 250 black students on the campus of 14,000 — an increase from fewer than 20 in 1963. ",

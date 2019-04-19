@@ -161,7 +161,7 @@ class oped extends Component {
                   alt="Daily Sun"
                 />
               </a>
-              <p id="first-line-desktop-wsh" className="maintitle-desktop-wsh">
+              <p id="first-line-desktop-wsh" className="maintitle-desktop-wsh maintitle-desktop-wsh-first">
                 {content[i].title1}
               </p>
               <p className="maintitle-desktop-wsh">{content[i].title2}</p>
@@ -175,8 +175,8 @@ class oped extends Component {
               {content[i].sketch_caption}
             </p>
             <div className="content">
-              <div id="maintitle">{content[i].title}</div>
-              <div id="byline">{content[i].title_caption}</div>
+              <div id="maintitle-opeds">{content[i].title}</div>
+              <div id="byline-opeds">{content[i].title_caption}</div>
               <p className="bodyparas">
                 <span className="large-letter">{content[i].large_letter1}</span>
                 {content[i].p1}
