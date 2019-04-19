@@ -1,8 +1,8 @@
 import square1 from "./images/news_timeline4e.jpg";
 import square2 from "./images/behind3e.png";
 import square3 from "./images/sunnies2e.png";
-import square4 from "./images/news4.jpg";
-import square5 from "./images/news5.jpg";
+import square4 from "./images/fenton1.jpg";
+import square5 from "./images/alook1.png";
 
 const newscontent = [
   {
@@ -33,7 +33,7 @@ const newscontent = [
     pic: square5,
     h3: "A Look Into the National News Coverage of the Occupation",
     p:
-    "",
+    "By Kathryn Stamm",
   },
   {
     pic: square1,

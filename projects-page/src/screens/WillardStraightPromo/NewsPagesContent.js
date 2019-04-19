@@ -1,4 +1,4 @@
-// import React, { Component }  from 'react';
+import React, { Component }  from 'react';
 import img1 from "./images/news_timeline1.jpg";
 import img2 from "./images/news_timeline2.jpg";
 import img3 from "./images/news_timeline3.jpg";
@@ -11,6 +11,7 @@ import sunnies2 from "./images/sunnies2.png";
 import fenton1 from "./images/fenton1.jpg";
 import fenton2 from "./images/fenton2.jpg";
 import fenton3 from "./images/fenton3.jpg";
+import alook1 from "./images/alook1.png";
 
 const content = [
   {
@@ -184,6 +185,38 @@ const content = [
       parallax2_1: "Occupiers watch as campus police (then called public safety) assembled outside the Straight.",
       parallax2_2: " | Courtesy of Fenton Sands '70",
       p44: "Amina Kilpatrick is a member of the Class of 2021 in the College of Arts and Sciences. She is a News Editor on the 137th editorial board and can be reached at akilpatrick@cornellsun.com.",
+    },
+    {
+      title: "A Look Into the National News Coverage of the Occupation",
+      title_caption: "By Kathryn Stamm",
+      parallax1: alook1,
+      large_letter1: "T",
+      p1: `The Willard Straight Hall Occupation — described in 1999 by former professor Thomas Sowell as \“${<a href="https://www.hoover.org/research/day-cornell-died">the day Cornell died</a>}the day Cornell died\” — symbolized an era of national change and turmoil, full of questions about race. As the country turned their attention to the events unfolding in Ithaca in the following weeks, major news organizations often painted the event as violent and centered their narratives on the resulting white fear. `,
+      p2: "Pictures of armed black students marching across campus plastered national newspapers, underscored by headlines about a violent crisis, likening the occupation to a battle in a war. However, when the black occupants initially entered the Straight, they were unarmed and no one was reported injured. ",
+      p3: "On April 19, 1969, at 5:30 a.m., approximately 100 African-American students occupied Willard Straight Hall, ejecting 40 staff members and 30 Parents’ Weekend visitors by shouting “Fire!” The Sun previously reported. ",
+      p4: "This occurred in the midst of one of the most racially difficult times on the Hill. In the fall of 1968, there were 250 black students on the campus of 14,000 — an increase from fewer than 20 in 1963. ",
+      p5: "The occupation was largely a response to various racist incidents on campus that year. The Phi Delta Theta fraternity charged some black students to attend a dance without charging white students a fee. In response to an “intolerably hostile atmosphere of the dorms,”  the University created a black woman’s co-op, called Wari House. The day before the occupation, a flaming cross was found on their porch.",
+      quote1: "When the black occupants initially entered the Straight, they were unarmed and no one was reported injured.",
+      p6: "Though the occupants entered unarmed, they sought protection in the form of obtaining 17 rifles and shotguns from black students outside the Straight between 9:45 and 10 p.m. This came as a response to rumors that white fraternity brothers were planning to attack. Following the arming of the students, the University administration began negotiations, first over the phone with Edward Whitfield ’71.",
+      image1: alook1,
+      quote2_1: "A news camera captures a speech given to the Barton Hall community. | Sun File Photo", 
+      p7: "On April 20, 1969 at 4:13 p.m., the front doors of Willard Straight Hall opened. Students emerged after occupying the building for 35 hours. The 110 black students — some with ammunition strapped to their bodies and carrying rifles and shotguns — then marched through the Arts Quad to the AAS headquarters on North Campus to sign a seven-point agreement responding to the campus issues of race. ",
+      p8: "This is where the Newsweek story began: at 4:13 p.m., after the first 35 hours of the occupation and the prior months of racial unrest. ",
+      p9: "Further, the picture most associated with the event in nationwide publications was of the students exiting the building to sign. Taken by Associated Press photographer Steve Starr, the Pulitzer Prize-winning photograph was often paired with captions and headlines describing the students singularly as armed. ",
+      p10: "The May 5, 1969 edition of Newsweek — a weekly magazine whose editions featured the prominent news stories of that week — offered the caption “Universities Under the Gun: Militants at Cornell” with that picture, on the cover.",
+      p11: "\“Armed Negroes End Seizure, Cornell Yields,\” read The New York Times front-page article headline on April 21, 1969. ",
+      quote4: "\“The Negro students left the litter of their occupation in Straight Hall.\”",
+      p14: "The New York Times also focused on the physical aftermath of the event, despite the fact that the only injuries were minor, and a result of a fist-fight that broke out when white fraternity members attempted to break back in, before the guns arrived. ",
+      p15: "“The Negro students left the litter of their occupation in Straight Hall,” it reported. “Mattresses and cushions had been pulled into the cafeteria where most of the students slept. In the Memorial Room, some high light fixtures had been ripped out, several candy machines had been rifled and walls bore slogans like ‘Kill the fraternity honkies’.”",
+      p16: "The Newsweek article follows its description of the students “some draped with bandoliers and carrying an arsenal of seventeen rifles, shotguns and homemade spears” with the reaction from a white student. ",
+      p17: "“When they stepped out and I saw the ammunition on the belts and the rifles, my heart dropped to my toes,” Lawrence Terkel, a white Cornell senior, said to Newsweek.",
+      p18: "“This profound consternation was shared by almost everyone associated with Cornell — the faculty, the students, militant and uninvolved, parents and alumni,” Newsweek continued. “Moreover, it radiated beyond Cornell to every other U.S. campus and indeed beyond the universities to U.S. society as a whole.”",
+      p19: "Ultimately, Newsweek glossed over the roots of the occupation in offering an explanation to why the black students armed, undermining the fear of attack by their white classmates. “Others, with a psychological bent, held that the blacks were mainly on a self-fueled ‘ego trip,’ and were asserting their masculinity — and no doubt there was some truth in that, as well,” it reported. ", 
+      p20: "At least half of the occupants were women, though — a detail that escaped many major outlets’ reporting — according to Juanita Goss ’72, one of the participants.",
+      p21: "Ultimately, the media response to the Willard Straight Hall occupation — its sentiment that the event was violent, catastrophic, and perhaps unnecessary — is summed by Newsweek. “The traumatic events at Cornell took place in a week when the U.S. campus seems to have turned into a national battleground.” ",
+      parallax2: behind1,
+      parallax2_1: "The famous Newsweek Magazine cover. ",
+      p44: "Kathryn Stamm can be reached at kstamm@cornellsun.com. ",
     },
   ];
 

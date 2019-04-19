@@ -1,11 +1,11 @@
 import pumpkin_cover from "../screens/Pumpkin/images/helicopter.png";
 import huawei_cover from "../screens/Huawei/images/huaweicover.jpg";
-import willard_cover from "../screens/WillardStraightPromo/images/hero1.png";
+import willard_cover from "../screens/WillardStraightPromo/images/news_timeline3.jpg";
 
 const content = [
   {
     id: 0,
-    title: "Willard Straight's 50th Anniversary",
+    title: "Fifty Years Later: The Straight Takeover",
     description: "",
     image: willard_cover,
     url: "/WillardStraight"
