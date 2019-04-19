@@ -34,7 +34,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-3" src=""/>
+              <div className="entry-photo-filler" alt="entry-photo-3"/>
               <div className="entry-text-container">
                 <h2>Johnson Museum, 1978</h2>
                 <p>After Board of Trustees chairman Robert Purcell ’32 says in an interview with The Sun that black students need to “integrate into the white 
@@ -67,7 +67,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-6" src=""/>
+            <div className="entry-photo-filler" alt="entry-photo-3"/>
               <div className="entry-text-container">
                 <h2>Day Hall, 1991</h2>
                 <p>Over 200 primarily black and Latino students, barricade and occupy Day Hall for 15 hours to protest proposed cuts to financial aid, 
@@ -90,7 +90,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-8" src=""/>
+            <div className="entry-photo-filler" alt="entry-photo-3"/>
               <div className="entry-text-container">
                 <h2>Willard Straight, 2014</h2>
                 <p>A group of students calling themselves the Ad Hoc Committee for Student Democracy take over a Student Assembly meeting in Memorial Hall. 
@@ -101,7 +101,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-9" src=""/>
+            <div className="entry-photo-filler" alt="entry-photo-3"/>
               <div className="entry-text-container">
                 <h2>Willard Straight, 2017</h2>
                 <p>After a black student is beaten by white students using racial slurs in Collegetown, 300 protestors led by Black Students United 
