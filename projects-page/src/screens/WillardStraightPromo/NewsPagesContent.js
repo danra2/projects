@@ -12,6 +12,8 @@ import fenton1 from "./images/fenton1.jpg";
 import fenton2 from "./images/fenton2.jpg";
 import fenton3 from "./images/fenton3.jpg";
 import alook1 from "./images/alook1.png";
+import agents1 from "./images/agents1.jpg";
+import agents2 from "./images/agents2.jpg";
 
 const content = [
   {
@@ -217,6 +219,47 @@ const content = [
       parallax2: behind1,
       parallax2_1: "The famous Newsweek Magazine cover. ",
       p44: "Kathryn Stamm can be reached at kstamm@cornellsun.com.",
+    },
+    {
+      title: "Agents of Change Documentary Explores Takeover",
+      title_caption: "By Amina Kilpatrick",
+      parallax1: agents1,
+      large_letter1: "A",
+      p1: "Agents of Change, the documentary released in 2016, focuses on two stories of student activism at San Francisco State University and Cornell University. The 1960s featured an era of protests reflective of the shifting times, including the civil rights movement and the Vietnam war. College campuses appeared ill-equipped to deal with the needs of rising black populations.",
+      p2: "Frank Dawson ’72 and Abby Ginzberg ’71 co-directed and co-produced the movie, a documentary that details the development of the Willard Straight Hall Takeover.",
+      p3: "Dawson and Ginzberg began working on the film in 2009. Dawson was a black freshman during the takeover inside Willard Straight Hall as events unfolded while Ginzberg was a white student outside the building as a member of Students for a Democratic Society. ",
+      p4: "Dawson initially wanted to create a feature film in the 1980s, but was finally able to realize his goal in the 2000s. Ginzberg, on the other hand, had a career of making films of social justice issues and this topic was close to her and an important story to tell. ",
+      p5: "The pair had not met prior to creating this documentary despite being on campus at the same time for three years and both playing a role in the takeover. According to Ginzberg, the two were introduced by a mutual friend after she expressed her interest to tell this story and Dawson wanted to do the same.",
+      quote1: "",
+      p6: "\“The collaboration between Abby and I was important,\” Dawson told The Sun.",
+      image1: agents1,
+      quote2_1: "",
+      p7: "Although the partnership commenced in 2009, it took seven years to complete the film due to funding issues. According to Ginzberg, \“neither of [them] got paid,\” for their work on the film. ",
+      p8: "One of the logistical problems in documenting the Cornell takeover was the lack of video footage according to Ginzberg. In contrast to the four TV stations in San Francisco covering the development of their campus events, Ithaca was very remote.",
+      p9: "\“In Ithaca, there was no TV news station,\” Ginzberg told The Sun. \“Ithaca was a complete desert when it came to news.\”",
+      p10: "Ginzberg and Dawson were reliant on the photos provided by Fenton Sands ’70, who was a prolific documentor of black student life at Cornell.",
+      p11: "\“If it had not been for the photos taken by Fenton Sands, I do not know how we would have …  [had] any help in terms of photos to tell the Cornell story prior to the students taking over the straight,\” Ginzberg said. \“His photos were [a] huge help in terms of documenting the story we are trying to tell.\”",
+      quote4: "",
+      p14: "Ginzberg went to a diverse public high school in Manhattan. Going to Cornell was a culture shock for her with the decreased diversity. The lack of diversity at Cornell was one of the reasons she fought alongside the black students, she said. ",
+      p15: "Additionally, the summer prior to the takeover, she saw first-hand as Columbia students fought against the university moving into Harlem in 1968. This also primed her for student activism.",
+      p16: "Since she was a trusted and active member of SDS by the time the takeover occurred, Ginzberg was one of the white students who was called at 6 a.m. to help out. ",
+      p17: "For Dawson, the takeover was \“a defining moment of [his] life.\”",
+      p18: "\“I don’t think any of us going in to that building thought we were having a conversation about it 50 years later,\” Dawson said. \“I don’t know that we knew at that it would be recognized in the way that it was.\”",
+      p19: "The Takeover was more than just a life-defining moment for Dawson, though, as it also helped shape his professional career. Through his participation he recognized the power that the media had and subsequently changed his focus to broadcasting and media.",
+      p20: "At the time, a radio station operated out of Willard Straight Hall. During the Takeover, the radio waves were shut off, taking away the “voice” of students to speak directly, according to Dawson.",
+      p21: "Additionally, Dawson’s mother called him during the Takeover, worried about what she had seen on the national news. Dawson said she did not believe what he was telling her. ",
+      parallax2: agents2,
+      parallax2_1: "Courtesy of Agents of Change",
+      p22: "\“My mother did not believe her own son over someone she did not know, only because they were on television. That’s power,\” Dawson said.",
+      p23: "Alumni have had strong reactions to the film. Dawson screened the film for the classes of 1972 and 1973, and he said many alumni were surprised to see  how the events went down. ",
+      p24: "One alumnus shared with Dawson that they didn’t understand why black students \“kept to themselves\” and were so \“angry\” at the time, but now understood because of the film.",
+      p25: "Since the film is about events that took place five decades ago, many people were hearing about this story for the first time. According to Ginzberg, they have been able to show the film at many different college campuses and it garnered different reactions as students shared struggles of their own.",
+      p26: "At the University of Chicago, after seeing the film, students shared their experience with dining hall hours not being accessible to students on financial aid. Ginzberg recounted that many students said they would go hungry on the weekends, unable to afford meals not in dining halls.",
+      p27: "At the historically black Spelman College, the women there were able to empathize with the fight the black students had over their education by drawing from their own experiences. At California State University, Bakersfield, students from the large Latinx population were fighting for a Chicanx studies program similar to black Cornell students’ fight for a black studies program. ",
+      p28: "\“What students are suffering from are different,\” Ginzberg noted. \“At every school there was some issue.\”",
+      p29: "For Dawson, one of the most powerful moments came from a screening of the film done at Broward County Community College. One student was moved to tears by the film, overwhelmed with emotion by the hard work students went through to institute black studies programs, according to Dawson.",
+      p30: "\“Our goal with this film is to have it inform all students, particularly at Cornell but at all universities, that there was a really empowered students movement that led to all [these] changes,\” Ginzberg said.",
+      p44: "Amina Kilpatrick is a member of the Class of 2021 in the College of Arts and Sciences. She is a News Editor on the 137th editorial board and can be reached at akilpatrick@cornellsun.com.",
     },
   ];
 

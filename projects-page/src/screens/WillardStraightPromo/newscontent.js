@@ -1,6 +1,6 @@
-import square1 from "./images/news_timeline4e.jpg";
-import square2 from "./images/behind3e.png";
-import square3 from "./images/sunnies2e.png";
+import square1 from "./images/news_timeline4.jpg";
+import square2 from "./images/behind3.png";
+import square3 from "./images/sunnies2.png";
 import square4 from "./images/fenton1.jpg";
 import square5 from "./images/alook1.png";
 
