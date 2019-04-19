@@ -1,6 +1,6 @@
-import square1 from "./images/news1.jpg";
-import square2 from "./images/news2.jpg";
-import square3 from "./images/news3.jpg";
+import square1 from "./images/news_timeline4e.jpg";
+import square2 from "./images/behind3e.png";
+import square3 from "./images/sunnies2e.png";
 import square4 from "./images/news4.jpg";
 import square5 from "./images/news5.jpg";
 
@@ -9,19 +9,19 @@ const newscontent = [
     pic: square1,
     h3: "Timeline of the Willard Straight Hall Takeover",
     p:
-      "A summary of the crucial events that took place before the Takeover, based off of decades of Sun reporting."
+      "By Yuichi Kakutani"
   },
   {
     pic: square2,
     h3: "Behind the Pulitzer Prize-Winning Photograph",
     p:
-      "The story behind the iconic image that made headlines throughout the mid 1900s."
+      "By Amina Kilpatrick"
   },
   {
     pic: square3,
     h3: "Sunnies Recall The Sun's Coverage of the Takeover",
     p:
-    "An oral history: Sun journalists share their Takeover experiences.",
+    "By Maryam Zafar and Amina Kilpatrick",
   },
   {
     pic: square4,
