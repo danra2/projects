@@ -27,9 +27,6 @@
   position: relative;
   color: #a88c5d;
 }
-#first-line-desktop-wsh {
-  margin-top: 10%;
-}
 .byline-desktop-wsh {
   text-align: left;
   margin-top: 1%;
@@ -97,7 +94,6 @@
   font-weight: 800;
   margin-left: 18%;
   color: #a88c5d;
-  margin-top: 0%;
 }
 
 .inarticlephoto {
@@ -268,22 +264,11 @@
     font-size: 200%;
   }
 }
-@media only screen and (min-width: 768px) {
-  #maintitle {
-    display: none;
-  }
-  #byline {
-    display: none;
-  }
-}
 @media only screen and (max-width: 767px) {
   .wrapper-mobile {
     display: block;
   }
 
-  .wrapper {
-    display: none;
-  }
   .img-caption {
     margin-left: 18%;
     width: 65%;

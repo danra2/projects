@@ -1,6 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router";
 import newscontent from "./newscontent";
+import history from "../../history.js";
 
 class News extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class News extends React.Component {
     if (this.state.hover) {
       customStyle = {
         borderColor: "#a88c5d",
-        backgroundImage: `url(${this.props.pic})`,
+        backgroundImage: `url(${this.props.pic})`
       };
     } else {
       customStyle = {
@@ -34,6 +35,7 @@ class News extends React.Component {
     }
 
     if (this.state.redirect) {
+      history.push("/WillardStraight");
       return <Redirect to={`/WillardStraight/news/${this.props.id}`} />;
     }
     return (

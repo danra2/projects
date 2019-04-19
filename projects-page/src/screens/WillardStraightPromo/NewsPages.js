@@ -61,12 +61,6 @@ class news extends Component {
                   alt="Daily Sun"
                 />
               </a>
-              <p id="first-line-desktop" className="maintitle-desktop-wsh">
-                {content[i].title1}
-              </p>
-              <p className="maintitle-desktop-wsh">{content[i].title2}</p>
-              <p className="maintitle-desktop-wsh">{content[i].title3}</p>
-              <p className="byline-desktop-wsh">{content[i].title_caption}</p>
             </div>
             <div className="wrapper-mobile">
               <img src={content[i].parallax1} alt="" />
@@ -204,13 +198,6 @@ class news extends Component {
                   <p className="pull-quote-para">{content[i].p33}</p>
                   <p className="pull-quote-para">{content[i].p34}</p>
                 </div>
-                {/* <div className="col-sm-4 cols">
-                  <div className="pull-quote">
-                    <p className="pull-quote-line">_______________</p>
-                    <p className="pull-quote-content">{content[i].quote5}</p>
-                    <p className="pull-quote-line">_______________</p>
-                  </div>
-                </div> */}
               </div>
               <p className="bodyparas">{content[i].p35}</p>
               <p className="bodyparas">{content[i].p36}</p>
@@ -219,15 +206,6 @@ class news extends Component {
                 {content[i].p37}
               </p>
             </div>
-            {/* <div
-              className="parallaximage"
-              style={{ backgroundImage: `url(${content[i].parallax3})` }}
-            />
-
-            <p className="sketch-caption">
-              <span className="img-caption-bold">{content[i].parallax3_1}</span>
-              {content[i].parallax3_2}
-            </p> */}
             <div className="content">
               <p className="bodyparas">{content[i].p38}</p>
               <p className="bodyparas">{content[i].p39}</p>

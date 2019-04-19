@@ -6,6 +6,7 @@ import {
   CarouselIndicators
 } from "reactstrap";
 import { Redirect } from "react-router";
+import history from "../../history.js";
 
 const items = [
   {
@@ -23,7 +24,7 @@ const items = [
   {
     id: 4,
     src: require("./images/acree.png")
-  },
+  }
 ];
 
 class CustomCarousel extends Component {
@@ -77,6 +78,7 @@ class CustomCarousel extends Component {
 
     const slides = items.map(item => {
       if (this.state.redirect) {
+        history.push("/WillardStraight");
         return <Redirect to={`/WillardStraight/opeds/${item.id}`} />;
       }
       return (
