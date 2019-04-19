@@ -5,6 +5,12 @@ import img3 from "./images/news_timeline3.jpg";
 import img4 from "./images/news_timeline5.jpg";
 import behind1 from "./images/behind1.jpg";
 import behind2 from "./images/behind2e.jpg";
+import sunnies1 from "./images/sunnies1.jpg";
+import sunnies1e from "./images/sunnies1e.jpg";
+import sunnies2 from "./images/sunnies2.png";
+import fenton1 from "./images/fenton1.jpg";
+import fenton2 from "./images/fenton2.jpg";
+import fenton3 from "./images/fenton3.jpg";
 
 const content = [
   {
@@ -105,7 +111,80 @@ const content = [
       p31: "\“The black power salute, we are the generation of African Americans that is not going to be intimidated,\” Jones stated. \”That’s what I was feeling, and that's how I looked in the photo — they captured it perfectly.\”",
       p44: "Amina Kilpatrick is a member of the Class of 2021 in the College of Arts and Sciences. She is a News Editor on the 137th editorial board and can be reached at akilpatrick@cornellsun.com.",
     },
-  
+
+    {
+      title: "Sunnies Recall The Sun's Coverage of the Takeover",
+      title_caption: "By Maryam Zafar and Amina Kilpatrick",
+      parallax1: sunnies1e,
+      large_letter1: "A",
+      p1: "s national reporters from the country’s leading papers flocked to Ithaca, student reporters found themselves both under spotlight and thrust behind the pen. A departure from The Sun’s typical campus role, during the times surrounding the black students’ occupation of Willard Straight Hall, the newspaper was no longer reporting only for the Ithaca community.",
+      p2: "\“It was just so exciting. You were at the center of the world,\” Stanley Chess \’69 said. Chess, who was a senior at the time of the Takeover, had finished his term as editor in chief a few months before, reflected on the whirlwind of The Sun’s newsroom fifty years later. ",
+      p3: "\“You'd be sitting there, working on a story, and next to you was a guy named Homer Bigart who was one of the famous reporters of the time from The New York Times,\” Chess recalled, chuckling. \“And he was working on the same story you were working on in the same newsroom, next to you.\” ",
+      p4: "On April 20, 1969, when the famous front page was printed, the bylines of the reporters were students who were as young as sophomores, tasked with accurately communicating a rapidly-unfolding event to the country.",
+      p5: "When working on stories, student reporters would head down to the Colonial Building in what is now the Ithaca Commons, producing a daily print paper while also enrolled in classes — technically. ",
+      quote1: "\"It was just so exciting. You were at the center of the world.\"",
+      p6: "\“We didn’t go to class a lot,\” Chess said. ",
+      image1: sunnies1,
+      quote2_1: "Escorted by Public Safety, the armed protesters march toward the Arts Quad, seen here from the roof of Olin library. | Sun File Photo",
+      p7: "During the events of the takeover, Brian W. Gray ’71 M.A. ’74 noted that he was \“clued out\” from the issues at hand and was mainly focused on getting good shots. At the time, there was no digital photography and you couldn’t tell how your photos turned out prior to developing them.",
+      image2: sunnies2,
+      quote3_1: "Stan Chess \’69 (left) had just finished his term as editor in chief when the Takeover occurred. He was succeeded by Ed Zuckerman \’70 (right). Middle is Vivian Lam \’69, who served as business manager at the time. | Sun Clipping",
+      p8: "\“I didn’t realize there was this black discontent … I was surprised at it,\” Gray shared. \“The black movement wasn’t particularly high on my radar.\”",
+      p9: "He served as the photography editor at The Sun during the takeover. Prior to the events of the takeover, Gray was had previous experience covering protests of the Vietnam war and was even tear gassed in Washington, D.C. ",
+      p10: "At the time, while covering racial tensions, The Sun’s news team was staffed primarily by white students, Chess said, which made finding and maintaining reliable sources difficult. \“I don’t remember if there was a black reporter,\” Gray recalled.",
+      p11: "As a result, the news team incorporated an unusual source of information. ",
+      quote4: "\“I don’t remember if there was a black reporter.\” ",
+      p14: "\“Some woman called me up on The Sun when I was Assistant Managing Editor,\” Chess recalled, and offered him a perspective on a story that was going to be printed in the paper. In hindsight, Chess realized that her perspective had been accurate. ",
+      p15: "Over time, through intermittent phone calls with the newsroom when notable events occurred, Chess said he and the news team continually used information that she provided, and never printed her name. ",
+      p16: "He said that he could not recall her name fifty years later, and that he never met the woman, before or after his time at Cornell, but that he knew her name and that she was a black student at the time, and she offered insight and a perspective that The Sun did not have a source for. ",
+      p17: "\“That was the contact that we were able to get information into The Sun that we would not have been able to get otherwise,\” Chess said. The published information was not contested, to Chess\’ recollection. ",
+      p18: "\“It was a gamble,\” Chess said, but \“we had no choice.\” ",
+      p19: "Sometimes, the news came at unexpected times. ",
+      p20: "On the day of the takeover, Gray initially learned of the events during a night of partying. He recalled he was \“a little bit incapcitated\” and sent a photographer to capture the fraternity students trying to break into the Straight. ",
+      p21: "Gray was the photographer behind a different set of iconic shot of the events, although his version did not win the Pulitzer Prize, while the Associated Press’ photographer did. The difference between The Sun and the prizewinning photograph was that in Gray’s photograph hangs the “Welcome Parents” banner, fossilizing the memory of the fateful parents weekend in his image. He also captures the first students walking out the building with guns in their hands.",
+      parallax2: sunnies2,
+      p22: "Gray recalled taking this photograph, and said he ran out of film that day because he taking photos of his friends earlier on.",
+      p23: "After Gray graduated, he left the field of journalism. One his main reasons was how he felt that he was merely an observer of events, and could not contribute to direct action.",
+      p24: "\“One of the reasons I quit journalism in the end was I felt that I spent all this time on the outside as a dispassionate observer and I was focused on not being involved [and] that was not something I wanted for the rest of my life,\” Gray said. \“That’s why I became a lawyer.\” ",
+      p25: "Chess didn’t recall ever receiving heavy criticism for The Sun’s coverage of the takeover, but also noted that it was a time when there was generally more trust in the media, unlike today. ",
+      p26: "\“Nobody prepared you,\” he said, about the contentiousness and tensions surrounding his time at Cornell, but that was the only college experience he knew.",
+      p27: "During his time at Cornell, some of his classmates were drafted into the highly-controversial Vietnam War, protests and sit-ins were continual, a cross was burned on the grass outside and he witnessed a surreal moment as his classmates holding rifles walked out of Willard Straight Hall — where he would later live for a short period of time. ",
+      p28: "\“It was a once-in-a-lifetime event,\” he said. ",
+      p29: "\“I wasn’t afraid. I was never feared that there was going to be some kind of horrible violence occurring,\” Gray told The Sun. \“These things have never happened before and we didn’t have these mass shootings that happen now.\”",
+      p30: "When reflecting, Gray noted that there were things he might have done differently. ",
+      p31: "\“I was very naively unpolitical. I had worked for the Smithsonian institution for 2 summers. I was focused a lot of that, not on the politics of anything.\”",
+      p32: "The Sun, Gray said, could have been more proactive in its reporting and reached out instead of simply observing. ",
+      p33: "\“In fact I understand from the New York Times article that was there about 10 years ago, one of the black guys has the picture I took framed,\” Gray noted. \“I have never spoken to any of them that I know of, I never spoke to them at the time.\”",
+      p34: "Gray attributed this sense of distance to his decision to quit journalism and become a lawyer, as he currently works in Canada, a job that gave him more of an avenue for action than journalism. ",
+      p35: "\“You don’t control your images, you don’t control what people take from them,\” Gray said.",
+      p44: "Maryam Zafar is a member of the Class of 2021 in the College of Arts and Sciences. She is the City Editor on the 137th editorial board and can be reached at mzafar@cornellsun.com. Amina Kilpatrick is a member of the Class of 2021 in the College of Arts and Sciences. She is a News Editor on the 137th editorial board and can be reached at akilpatrick@cornellsun.com.",
+    },
+    {
+      title: "Fenton Sands ’70 Documented Black Student Life at Cornell",
+      title_caption: "By Amina Kilpatrick",
+      parallax1: fenton1,
+      large_letter1: "F",
+      p1: "Fenton Sands ’70 shared his photos — often documenting the black community because other people weren’t —  with The Sun, offering a unique vantage point into the Takeover through the eyes, and lens, of a black student at Cornell from the time.",
+      p2: "At the time of the Takeover in 1969, Ithaca was relatively isolated from major news outlets. Until the famous photo of students walking out of Willard Straight Hall with guns was published on front pages across the country, few photographers were documenting the Takeover. ",
+      p3: "Sands, however, was. He was a known student-photographer at the time, and Sands’ photos had appeared in The Sun multiple times when he was a student at Cornell.",
+      p4: "During the takeover, Sands was inside the building. He documented the life of students and the actions before the events themselves. Unlike other photographers, his familiarity with his fellow students could be seen in the casualness of the subjects in the photos. Students are smiling and posing, and many appeared unbothered by the presence of the camera.",
+      p5: "\“Black students knew I took a lot of pictures,\” Sands told the Sun. \“They weren’t bothered or threatened by me taking pictures because they were so used to that.\” ",
+      quote1: "\“Black students knew I took a lot of pictures.\”",
+      p6: "\“That clearly would have made a big difference,\” Sands added.",
+      image2: fenton2,
+      quote3_1: "The photographer as a college student. | Courtesy of Fenton Sands ’70",
+      p7: "After the Takeover, international news outlets reached out to Sands to share these photos. While Sands obliged, he told The Sun that editing techniques were used to mask the identity of individuals presented in Life Magazine.",
+      image1: fenton1,
+      quote2_1: "After getting ready to leave on the first day, a warning was expressed at this meeting that going out might subject students to attack. The occupiers decided to stay overnight. | Courtesy of Fenton Sands '70",
+      p8: "In the years following the Takeover, the question of punishing students for their participation was not decided. Several students had been indicted by New York State. Sands shared his photos on the condition of students not being recognizable out of fear that they would be used as evidence.",
+      p9: "Additionally, Sands has since shared his work in the 2016 Agents of Change film. The photos showcase not only what happened after the students left the building with guns but also the planning that led up to the decision. ",
+      p10: "Sands graduated from Cornell in 1970, a year after the Takeover, with a degree in Agricultural Economics. He received his Ph.D. from Michigan State University in Agricultural Economics. After that, he spent decades working for United States Agency for International Development following in the footsteps of his father, who also attended Cornell.",
+      quote4: "Sands shared his photos on the condition of students not being recognizable.",
+      parallax2: fenton3,
+      parallax2_1: "Occupiers watch as campus police (then called public safety) assembled outside the Straight.",
+      parallax2_2: " | Courtesy of Fenton Sands '70",
+      p44: "Amina Kilpatrick is a member of the Class of 2021 in the College of Arts and Sciences. She is a News Editor on the 137th editorial board and can be reached at akilpatrick@cornellsun.com.",
+    },
   ];
 
 export default content;

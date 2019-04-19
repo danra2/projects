@@ -27,7 +27,7 @@ const newscontent = [
     pic: square4,
     h3: "Fenton Sands '70 Documented Black Student Life at Cornell",
     p:
-    "",
+    "By Amina Kilpatrick",
   },
   {
     pic: square5,
