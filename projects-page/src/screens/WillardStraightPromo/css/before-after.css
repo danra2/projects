@@ -13,20 +13,35 @@
   display: inline-block;
 }
 
+.before-after-row {
+  display: flex;
+}
+
+.before-after-column {
+  flex: 33.33%;
+  /* border: 2px white; */
+  /* padding: 3px; */
+}
+
+.before-after-column-img {
+  /* max-height: 100%; */
+  width: 100%;
+}
+
 .before-after-slider-photo-block {
-  margin: 150px 200px;
+  margin: 75px 200px;
   display: block;
 }
 
 .before-after-photo-img {
-  cursor: pointer;
+  /* cursor: pointer; */
   /* width: 75%; */
   height: auto;
   display: inline-block;
 }
 
 .before-after-photo-full-img {
-  cursor: pointer;
+  /* cursor: pointer; */
   /* width: 75%; */
   width: 100%;
   object-fit: cover;
@@ -36,24 +51,29 @@
 
 .before-after-photo-description {
   /* background-color: #1a1a1a; */
-  vertical-align: top;
+  /* vertical-align: top; */
+  /* display: inline-block; */
+  /* width: 25%; */
+  /* height: 100%; */
   display: inline-block;
-  width: 25%;
-  height: 100%;
+  width: 100%;
 }
 
 .before-after-photo-caption {
   color: #1a1a1a;
   margin: 0px;
   font-size: 15px;
-  padding: 0px 20px;
 }
 
 .before-after-photo-credit {
   color: #999999;
   font-size: 12px;
   font-weight: bold;
-  padding: 0px 20px;
+}
+
+.before-after-multiple-photo-block {
+  display: inline-block;
+  width: 50%;
 }
 
 .before-after-react-photo-gallery--gallery > * {
@@ -63,6 +83,11 @@
 @media only screen and (max-width: 1200px) {
   .before-after-gallery-container {
     margin: 0px;
+  }
+
+  .before-after-slider-photo-block {
+    margin: 30px 75px;
+    display: block;
   }
 
   .before-after-photo-full-img {
@@ -81,7 +106,7 @@
   .before-after-photo-description {
     /* background-color: #1a1a1a; */
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .before-after-photo-caption {
@@ -101,34 +126,27 @@
 
 .before-after-gallery-title {
   text-transform: uppercase;
-  color: white;
+  color: #484848;
   font-family: 'Roboto', sans-serif;
   font-size: 58px;
   margin-bottom: 10px;
 }
 
 .before-after-title-container {
-  float: right;
-  padding-right: 100px;
-  margin: 10px auto 0 auto;
-  /* color: white; */
-  position: absolute;
-  text-align: left;
-  z-index: 3;
-  bottom: 20px;
-  left: 20px;
-  right: 0;
+  margin: 100px 100px 0 100px;
+  padding: 0 100px 0 100px;
 }
 
 .before-after-gallery-subtitle {
   /* font-size: 18px; */
   color: #bd9d6b;
-  text-align: left;
+  /* text-align: left; */
   margin-top: 10px;
   font-family: 'Open Sans', sans-serif;
+  font-style: italic;
   font-weight: 300;
-  font-size: 32px;
-  text-transform: uppercase;
+  font-size: 22px;
+  /* text-transform: uppercase; */
   line-height: 32px;
   /* color: #F2F2F2; */
   padding: 0;
@@ -140,13 +158,13 @@
 }
 
 .before-after-photos-page-header {
-  width: 100%;
+  /* width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top; */
   /* background-size: 100%; */
-  background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/FSands-13.jpg');
+  /* background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/FSands-13.jpg'); */
 } 
 /* 
 .photos-header-gradient {
@@ -156,3 +174,9 @@
   display: block;
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 80%);
 }  */
+
+@media screen and (max-width: 500px) {
+  .before-after-column {
+    width: 100%;
+  }
+}
