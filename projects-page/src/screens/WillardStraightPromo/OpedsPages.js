@@ -8,20 +8,20 @@ class oped extends Component {
     const rows = [];
     var div;
     for (let i = 0; i < content.length; i++) {
-      if (content[i].p7 != "") {
+      if (content[i].p7 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
           </div>
         );
-      } else if (content[i].p8 != "") {
+      } else if (content[i].p8 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
             <p className="bodyparas">{content[i].p8}</p>
           </div>
         );
-      } else if (content[i].p9 != "") {
+      } else if (content[i].p9 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
@@ -29,7 +29,7 @@ class oped extends Component {
             <p className="bodyparas">{content[i].p9}</p>
           </div>
         );
-      } else if (content[i].p10 != "") {
+      } else if (content[i].p10 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
@@ -38,7 +38,7 @@ class oped extends Component {
             <p className="bodyparas">{content[i].p10}</p>
           </div>
         );
-      } else if (content[i].p11 != "") {
+      } else if (content[i].p11 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
@@ -60,7 +60,7 @@ class oped extends Component {
             </div>
           </div>
         );
-      } else if (content[i].p12 != "") {
+      } else if (content[i].p12 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>
@@ -83,7 +83,7 @@ class oped extends Component {
             <p className="bodyparas">{content[i].p12}</p>
           </div>
         );
-      } else if (content[i].p13 != "") {
+      } else if (content[i].p13 !== "") {
         div = (
           <div>
             <p className="bodyparas">{content[i].p7}</p>

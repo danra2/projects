@@ -6,15 +6,15 @@ class App extends Component {
     return (
       <div className="wsh-timeline-app">
         <div className="timeline-header">
-          <div className="timeline-title-container">
+        </div>
+        <div className="timeline-title-container">
             <h2 className="timeline-title"> Occupations Throughout Cornell’s History </h2>
             <h3 className="timeline-subtitle"> A Timeline of Events </h3>
           </div>
-        </div>
         <div className="timeline">
           <div id="first-entry-container" className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-1" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-1" src="https://cornellsun.com/wp-content/uploads/2019/04/Copy-of-Occupations-Through-History-1-5-1-1972.png"/>
               <div className="entry-text-container">
                 <h2>Carpenter Hall, 1972</h2>
                 <p>Hundreds of anti-war demonstrators seize Carpenter Hall to protest “Cornell’s complicity in the war machine,” singling out the Aeronautical 
@@ -24,7 +24,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-2" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-2" src="https://cornellsun.com/wp-content/uploads/2019/04/Copy-of-Occupations-Through-History-2-Day-Hall-Takeover-04-20-76.png"/>
               <div className="entry-text-container">
                 <h2>Day Hall &amp; Admissions Office, 1976</h2>
                 <p>Almost 200 Black students occupy Day Hall for 10 hours to protest the firing of assistant financial aid director Herbert Parker. Earlier in 
@@ -34,7 +34,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-3" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-3" src=""/>
               <div className="entry-text-container">
                 <h2>Johnson Museum, 1978</h2>
                 <p>After Board of Trustees chairman Robert Purcell ’32 says in an interview with The Sun that black students need to “integrate into the white 
@@ -46,7 +46,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-4" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-4" src="https://cornellsun.com/wp-content/uploads/2019/04/Copy-of-Occupations-Through-History-3-Day-Hall-Occupation-of-Rhodes’-Office-03-25-81.png"/>
               <div className="entry-text-container">
                 <h2>President’s Office, 1981</h2>
                 <p>Seventeen students occupy President Rhodes’ office after Cornell announces an 18 percent tuition hike. On Rhodes’ orders, armed Public 
@@ -57,7 +57,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-5" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-5" src="https://cornellsun.com/wp-content/uploads/2019/04/Copy-of-Occupations-Through-History-4-Day-Hall-Protest-04-26-85.png"/>
               <div className="entry-text-container">
                 <h2>Day Hall, 1985</h2>
                 <p>Over the course of two weeks, hundreds of students conduct a sit-in in Day Hall to demand an end to Cornell’s continued investment in 
@@ -67,7 +67,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-6" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-6" src=""/>
               <div className="entry-text-container">
                 <h2>Day Hall, 1991</h2>
                 <p>Over 200 primarily black and Latino students, barricade and occupy Day Hall for 15 hours to protest proposed cuts to financial aid, 
@@ -79,7 +79,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-7" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-7" src="https://cornellsun.com/wp-content/uploads/2019/04/Copy-of-Occupations-Through-History-5-Day-Hall-11-20-93.png"/>
               <div className="entry-text-container">
                 <h2>Day Hall, 1993</h2>
                 <p> Over 100 Latino students, under the leadership of Eduardo Peñalver ’94 (now dean of Cornell Law School), occupy Day Hall for 
@@ -90,7 +90,7 @@ class App extends Component {
           </div>
           <div className="entry-container right">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-8" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-8" src=""/>
               <div className="entry-text-container">
                 <h2>Willard Straight, 2014</h2>
                 <p>A group of students calling themselves the Ad Hoc Committee for Student Democracy take over a Student Assembly meeting in Memorial Hall. 
@@ -101,7 +101,7 @@ class App extends Component {
           </div>
           <div className="entry-container left">
             <div className="entry-content">
-              <img className="entry-photo" alt="entry-photo-9" src="http://africana.cornell.edu/sites/africana/files/field/image/wstakeover_19_0.jpg"/>
+              <img className="entry-photo" alt="entry-photo-9" src=""/>
               <div className="entry-text-container">
                 <h2>Willard Straight, 2017</h2>
                 <p>After a black student is beaten by white students using racial slurs in Collegetown, 300 protestors led by Black Students United 

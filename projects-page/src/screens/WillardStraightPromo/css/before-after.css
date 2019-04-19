@@ -145,7 +145,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  background-size: 100%;
+  /* background-size: 100%; */
   background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/FSands-13.jpg');
 } 
 /* 
