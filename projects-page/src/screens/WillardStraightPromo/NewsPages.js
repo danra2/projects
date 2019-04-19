@@ -61,17 +61,17 @@ class news extends Component {
                   alt="Daily Sun"
                 />
               </a>
-              <p id="first-line-desktop" className="maintitle-desktop">
+              <p id="first-line-desktop" className="maintitle-desktop-wsh">
                 {content[i].title1}
               </p>
-              <p className="maintitle-desktop">{content[i].title2}</p>
-              <p className="maintitle-desktop">{content[i].title3}</p>
-              <p className="byline-desktop">{content[i].title_caption}</p>
+              <p className="maintitle-desktop-wsh">{content[i].title2}</p>
+              <p className="maintitle-desktop-wsh">{content[i].title3}</p>
+              <p className="byline-desktop-wsh">{content[i].title_caption}</p>
             </div>
             <div className="wrapper-mobile">
               <img src={content[i].parallax1} alt="" />
             </div>
-            <p className="sketch-caption" id="header-photo-caption">
+            <p className="sketch-caption-wsh" id="header-photo-caption">
               {content[i].sketch_caption}
             </p>
             <div className="content">
@@ -106,7 +106,7 @@ class news extends Component {
                   />
                 </div>
                 <div className="col-sm-6 cols">
-                  <p className="img-caption">
+                  <p className="img-caption-wsh">
                     <span className="img-caption-bold">
                       {content[i].quote2}
                     </span>
@@ -116,7 +116,7 @@ class news extends Component {
               </div>
 
               <p className="bodyparas">{content[i].p7}</p>
-              {/* <div className="row">
+              <div className="row">
                 <div className="col-sm-6 cols">
                   <img
                     className="in-text-img"
@@ -125,14 +125,14 @@ class news extends Component {
                   />
                 </div>
                 <div className="col-sm-6 cols">
-                  <p className="img-caption">
+                  <p className="img-caption-wsh">
                     <span className="img-caption-bold">
                       {content[i].quote3}
                     </span>
                     {content[i].quote3_1}
                   </p>
                 </div>
-              </div> */}
+              </div>
               <p className="bodyparas">
                 <span className="large-letter">{content[i].large_letter2}</span>
                 {content[i].p8}
