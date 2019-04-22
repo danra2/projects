@@ -6,7 +6,7 @@ import pumpkin from "./screens/Pumpkin/ptower.js";
 // import pumpkin from "./screens/template/template.js"; // TEMPLATE FOR NEWS
 import Huawei from "./screens/Huawei/Huawei.js";
 import WillardStraight from "./screens/WillardStraightPromo/WillardStraight.js";
-import { Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import WillardTimeline from "./screens/WillardStraightPromo/WillardTimeline.js";
 import WillardPhotos from "./screens/WillardStraightPromo/BeforeAfterPhotos";
 import OpedsPages from "./screens/WillardStraightPromo/OpedsPages.js";
@@ -14,7 +14,6 @@ import NewsPagesContent from "./screens/WillardStraightPromo/NewsPagesContent.js
 import OpedsContent from "./screens/WillardStraightPromo/OpedsContent.js";
 import NewsPages from "./screens/WillardStraightPromo/NewsPages.js";
 import ScrollToTop from "./ScrollToTop.js";
-import history from "./history.js";
 
 function WSH({ match }) {
   var rows = [];
@@ -46,7 +45,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router history={history}>
+        <Router>
           <ScrollToTop>
             <Route exact path="/" component={LandingPage} />
             <Route path="/huawei" component={Huawei} />

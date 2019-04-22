@@ -1,7 +1,6 @@
 import React from "react";
 import { Redirect } from "react-router";
 import newscontent from "./newscontent";
-import history from "../../history.js";
 
 class News extends React.Component {
   constructor(props) {
@@ -35,8 +34,7 @@ class News extends React.Component {
     }
 
     if (this.state.redirect) {
-      history.push("/WillardStraight");
-      return <Redirect to={`/WillardStraight/news/${this.props.id}`} />;
+      return <Redirect push to={`/WillardStraight/news/${this.props.id}`} />;
     }
     return (
       <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 topRow">
