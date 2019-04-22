@@ -13,7 +13,7 @@ const content = [
   [],
   [],
   [],
-  ["https://www.hoover.org/research/day-cornell-died"],
+  [],
   [],
   []
 ];

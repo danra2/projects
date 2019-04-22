@@ -172,7 +172,7 @@ class news extends Component {
               style={{ backgroundImage: `url(${content[i].parallax2})` }}
             />
 
-            <p className="sketch-caption">
+            <p className="sketch-caption-wsh">
               <span className="img-caption-bold">{content[i].parallax2_1}</span>
               {content[i].parallax2_2}
             </p>
@@ -220,7 +220,7 @@ class news extends Component {
               <br />
               <p className="bodyparas credits">{content[i].p44}</p>
             </div>
-            <References i={i} />
+            {/* <References i={i} /> */}
             <Footer />
           </div>
         </div>
