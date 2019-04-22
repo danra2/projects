@@ -56,12 +56,6 @@ const newscontent = [
     p:
     "By Vale Lewis",
   },
-  {
-    pic: square4,
-    h3: "Good Intentions Gone Hostile",
-    p:
-    "What happended, and why. What were the motives behind one extremist group.",
-  },
 ];
 
 export default newscontent;
