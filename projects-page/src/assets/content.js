@@ -6,7 +6,7 @@ const content = [
   {
     id: 0,
     title: "Fifty Years Later: The Straight Takeover",
-    description: "",
+    description: "A look back at a turning point in Cornell's history",
     image: willard_cover,
     url: "/WillardStraight"
   },
