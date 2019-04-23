@@ -8,7 +8,7 @@ class App extends Component {
       <div className="wsh-timeline-app">
         <div className="timeline-header"></div>
         <div className="timeline-caption-container">
-          <p> Alicia Wang / Sun Graphics Editor </p>
+          <p> Alicia Wang / Sun Graphics and Sketch Editor </p>
         </div>
         <div className="timeline-title-container">
           <h2 className="timeline-title"> Occupations Throughout Cornell’s History </h2>
