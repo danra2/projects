@@ -169,6 +169,7 @@ class news extends Component {
             </div>
             <div
               className="parallaximage"
+              // className="wrapper-mobile"
               style={{ backgroundImage: `url(${content[i].parallax2})` }}
             />
 

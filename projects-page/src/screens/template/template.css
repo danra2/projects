@@ -294,7 +294,7 @@
 }
 @media only screen and (max-width: 1300px) {
   .maintitle-desktop-wsh-first {
-    margin-top: 30%;
+    margin-top: 15%;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -312,29 +312,29 @@
 
   .img-caption {
     margin-left: 18%;
-    width: 65%;
+    width: 55%;
     margin-top: 0.5%;
-    font-size: 110%;
+    font-size: 100%;
     color: #666;
     margin-bottom: 1%;
   }
   .pull-quote-para {
     margin-left: 18%;
-    margin-right: 22%;
+    margin-right: 10%;
     margin-top: 2%;
     font-family: "Roboto", serif;
     font-weight: 300;
-    font-size: 110%;
+    font-size: 130%;
     color: #000;
     line-height: 1.7em;
   }
 
   .pull-quote {
-    width: 250px;
-    margin-left: 18%;
+    width: 150px;
+    margin-left: 1%;
   }
   .in-text-img {
-    margin-left: 18%;
+    margin-left: 35%;
 
     height: auto;
   }
@@ -363,8 +363,25 @@
   .wrapper {
     min-height: 450px;
   }
+  .in-text-img {
+    margin-left: 15%;
+    /* margin-bottom: 300px; */
+    height: auto;
+  }
+  .img-caption {
+    margin-left: 18%;
+    width: 55%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    color: #666;
+    margin-bottom: 1%;
+  }
+  .pull-quote {
+    width: 300px;
+    margin-left: 20%;
+  }
   .pull-quote-para {
-    font-size: 136%;
+    font-size: 130%;
   }
   .parallaximage {
     background-image: none;
@@ -378,6 +395,9 @@
   }
   #maintitle-opeds{
     font-size: 190%;
+  }
+  .sketch-caption-wsh {
+    display:none;
   }
 }
 
