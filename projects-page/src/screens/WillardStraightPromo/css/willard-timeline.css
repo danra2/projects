@@ -18,7 +18,10 @@
 
   .timeline-caption-container {
     text-align: right;
-    padding: 5px;
+    padding: 5px 10px;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
   }
   
   .timeline-title-container {
@@ -220,7 +223,7 @@
 
     .timeline-title {
       /* background-color: red; */
-      font-size: 24px;
+      font-size: 28px;
     }
 
     .timeline-subtitle {
