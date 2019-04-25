@@ -1,11 +1,20 @@
 import React from "react";
 import './Huawei.css';
 import Footer from '../../components/Footer/Footer.js';
+import {Helmet} from 'react-helmet'
 
 class Huawei extends React.Component {
+  
     render() {
       return (
         <div>
+          <Helmet> 
+            <meta property="og:site_name" content="The Cornell Daily Sun"/>
+            <meta property="og:title" content="Huawei Paid Cornell $5.3 Million For Research Contracts, Most of Any U.S. College in the Last Six Years"/>
+            <meta property="og:description" content="Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company."/>
+            <meta property="og:image" content="../images/huaweicover.jpg)}" />
+            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/>
+          /</Helmet>
           <div>
             <meta charSet="UTF-8" />
             <title>Huawei Paid Cornell $5.3 Million for Research Contracts, Most of Any U.S. College in the Last Six Years</title>
@@ -42,11 +51,11 @@ class Huawei extends React.Component {
               rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
             />
-            <meta property="og:site_name" content="The Cornell Daily Sun"/>
+           {/*  <meta property="og:site_name" content="The Cornell Daily Sun"/>
             <meta property="og:title" content="Huawei Paid Cornell $5.3 Million For Research Contracts, Most of Any U.S. College in the Last Six Years"/>
             <meta property="og:description" content="Four leading western universities have canceled research collaborations with Huawei or suspended talks for new deals with the company."/>
             <meta property="og:image" content="../images/huaweicover.jpg)}" />
-            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/>
+            <meta property="og:url" content="http://projects.cornellsun.com.s3-website.us-east-2.amazonaws.com/huawei"/> */}
           </div>
           <div>
             <div className="wrapperHW">
