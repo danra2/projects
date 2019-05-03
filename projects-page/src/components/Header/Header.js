@@ -37,13 +37,13 @@ class Header extends Component {
     render () {
         return (
             <header className = "header">
-                <div className="header-right">
-                    <div className="header-logo-wrapper"><img className="header-logo" src={logo} alt=""/></div>
+                <div className="header-left">
+                    <div className="header-logo-wrapper"><img className="header-logo" src={logo}/></div>
                     <div className="header-projects">PROJECTS</div>
                 </div>
-                <div className="header-left">
-                    <div className="header-link"><a href="#">Home</a></div>
-                    <div className="header-link" onClick = {this.openModal}><a>Snapchat</a></div>
+                <div className="header-right">
+                    <div className="header-link">Home</div>
+                    <div className="header-link" onClick = {this.openModal}>Snapchat</div>
                     <div className="header-link"><a href="https://cornellsun.com/contact-us/">Contact</a></div>
                     <div className="header-icon"><a href="https://www.facebook.com/cornellsun/"><i class="fab fa-facebook"></i></a></div>
                     <div className="header-icon"><a href="https://www.instagram.com/cornellsun/"><i class="fab fa-instagram "></i></a></div>

@@ -1,0 +1,145 @@
+.hempHeader {
+    background-image: url("http://i64.tinypic.com/r8fin5.jpg"); 
+    height:700px;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 130%;
+    
+}
+
+.hempHeaderTextWrapper {
+    width: 40%;
+    margin-bottom: 12%;
+    margin-right: 18%;
+    text-align: left;
+}
+
+.hempWrapper {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.hempCredit {
+    display: flex; 
+    align-self: flex-start;
+    padding-left: 5%;
+    padding-bottom: 20px;
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+
+.hempH1 {
+    font-size: 72px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #664f75; 
+    font-family: 'Oswald';
+
+}
+
+.hempH2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hempBodyText {
+    width: 50%; 
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.hempBodyText > p {
+    padding-bottom: 8px; 
+    width: 90%;
+}
+
+
+.hempBodyText > hr {
+    border-top: 1px solid black;
+}
+
+.hempPullQuote {
+    font-size: 26px; 
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 90%;
+    font-family: 'Oswald';
+}
+
+
+
+.hempBodyText > h3 {
+    font-weight: bold;
+    font-family: 'Oswald';
+    font-size: 36px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    display: flex; 
+    align-self: flex-start;
+    padding-left: 5%;
+    color: #4b3b55;
+}
+
+.hempParallax { 
+    margin-top: 20px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 200%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.hempParallax-1 {
+    background-image: url("https://i.ibb.co/55sTv0b/cbdstore.jpg");
+}
+
+.hempBodyText > img {
+    width: 90%;
+}
+
+.hempParallax-2 {
+    background-image: url("http://i66.tinypic.com/n5ld9l.jpg");
+}
+
+.hempParallax-3 {
+    background-image: url("http://i65.tinypic.com/2ibn4eg.jpg");
+}
+
+.hempParallax-4 {
+    background-image: url("http://i63.tinypic.com/2q18ep4.png");
+}
+
+.hempPhotoCredit {
+    width: 190%;
+    font-size: 12px;
+    color: grey;
+    padding-top: 8px;
+}
+
+.hempInlineCaption {
+    font-size: 12px; 
+    color: grey;
+    width: 90%;
+    padding-bottom: 30px;
+    padding-top: 8px;
+}
+
+.hempWrapper {
+    padding-bottom: 50px;
+}

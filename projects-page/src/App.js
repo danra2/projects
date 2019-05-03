@@ -15,6 +15,7 @@ import NewsPagesContent from "./screens/WillardStraightPromo/NewsPagesContent.js
 import OpedsContent from "./screens/WillardStraightPromo/OpedsContent.js";
 import NewsPages from "./screens/WillardStraightPromo/NewsPages.js";
 import ScrollToTop from "./ScrollToTop.js";
+import Hemp from './screens/Hemp/Hemp';
 
 function WSH({ match }) {
   var rows = [];
@@ -60,6 +61,7 @@ class App extends Component {
               component={WillardTimeline}
             />
             <Route path="/WillardStraightPhotos" component={WillardPhotos} />
+            <Route path="/hemp-industry" component={Hemp}/>
           </ScrollToTop>
         </Router>
       </div>
