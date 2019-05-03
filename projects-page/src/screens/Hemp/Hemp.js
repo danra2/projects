@@ -1,6 +1,7 @@
 import './Hemp.css'; 
 import React, { Component } from 'react';
 import Footer from '../../components/Footer/Footer';
+// import poster from './images/class.JPG';
 
 class Hemp extends Component {
     render() {
@@ -15,7 +16,7 @@ class Hemp extends Component {
                 </div>
                 
                 <div className = "hempBodyText">
-                <div className="hempCredit">By Amanda Cronin</div>
+                <div className="hempCredit">By Amanda H. Cronin</div>
                     <p>
                     On December 20, farmers and entrepreneurs struck gold when Congress <a target="_blank" href="https://www.govtrack.us/congress/bills/115/hr2">passed</a> the The Agriculture Improvement Act of 2018, or the “Farm Bill.” The law uprooted hemp from the controlled substances list, approving it for industrial growth in all 50 states. 
                     </p>
@@ -49,10 +50,13 @@ class Hemp extends Component {
                     <p>
                     When it comes to hemp, <a target="_blank" href="https://hort.cals.cornell.edu/people/lawrence-smart/">Larry Smart ’87</a> is true to his name. Once he observed the “changes in our political leadership” in 2016, he knew it was time to search for another topic of research — besides his original area of expertise, willow — that would be better funded by the government. And then came hemp. 
                     </p>
-                    <p>
+                    <p class="hempsidep">
                     Smart has worked at the Cornell <a target="_blank" href="https://agritech.cals.cornell.edu/">AgriTech</a> facility in Geneva, the Agriculture and Life Science School of Integrative Plant Science, for ten years; two of those years on hemp. His team’s task is to develop the perfect New York State hemp plant. They breed for grain and fiber yield, disease resistance, high CBD content and low THC content. Heavy restrictions are still in place to prevent farmers from sneakily growing marijuana — if more than 0.3 percent of the high-inducing compound are found, the whole crop must be destroyed, according to the <a href="https://nifa.usda.gov/industrial-hemp">USDA</a>.
                     </p>
-                    <p>
+                    <img src="http://i66.tinypic.com/2h3pp4w.jpg" alt="larrysmart" class="hempsideimg">
+                    </img>
+                    <div className="hempInlineCaption">Plant genetics researcher Dr. Larry Smart ’87 has been studying variants of the plant in his AgriTech lab. (Courtesy of Cornell University)</div>
+                    <p class="hempsidep">
                     Last year, the program evaluated fifty commercial hemp cultivars — selectively bred variations — planted across the state: in Geneva, on the Ithaca campus, on Long Island, and the Chazy research center.
 
                     </p>
@@ -129,6 +133,7 @@ class Hemp extends Component {
                     </p>
                     <img src="http://i66.tinypic.com/142bs47.jpg" alt="productlineup">
                     </img>
+                    <div className="hempInlineCaption">A sampling of a line-up of products available at Your CBD Store. (Courtesy of Your CBD Store)</div>
                     <p>
 
                     </p>
@@ -159,6 +164,8 @@ class Hemp extends Component {
                     <p>One of the biggest barriers to hemp’s success, according to the entrepreneurial Coleman, is the lack of knowledge and “rampant” misinformation about hemp. “People think that cannabis equals marijuana. That is not accurate.”</p>
                     <p>However, Crispell claimed that New York is ramping up hemp research as a “test drive” for when marijuana is legalized. “[Hemp] looks like a marijuana plant, smells like a marijuana plant. They’re very very similar. The only difference is that the primary content that’s extracted is CBD and not THC. There are trace amounts; fractions of a percent. It’s so similar that you can build your framework for [the marijuana] process and just translate it,”  Crispell said. </p>
                     <p>For the first time next fall, a <a target="_blank" href="https://cornellsun.com/2019/04/19/course-to-launch-in-fall-dives-into-weeds-of-cannabis-science-culture/">course</a> on cannabis — PLSCS 4190: Cannabis: Biology, Society and Industry — will be offered, taught by Prof. Carlyn S. Buckler, plant science. In an interview with The Sun, Buckler said that for the class, she “would like everyone to understand the breadth and depth of the cannabis industry and what the potentials are.”</p>
+                    <img src={require('./images/class.JPG')} alt="class poster" id="hempposter"></img>
+                    <p></p>
                     <p>Coleman argued that de-stigmatization through education was the best route. “I think it starts in institutions and schools. It’s sad that our physicians and our doctors are not more educated in the field. It’s not their fault, they only know that they’re taught.”</p>
                     <p>The novel nature of this commodity allows for confusion, misinformation and room for regulation. Time will tell whether the thin-leaved, bright green plant will live up to its high expectations. However, if the hemp industry continues to grow in lockstep with Cannabis sativa L’s typical growth rate, according to Steve Crispell, it will grow “like a weed.”</p>
                     <p id="hemp-author-bio">Amanda H. Cronin is a member of the Class of 2021 and studies environmental science, law, and communication in the College of Agriculture and Life Sciences. She is a News Editor on the 137th editorial board and can be reached at acronin@cornellsun.com.</p>
