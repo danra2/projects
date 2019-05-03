@@ -145,3 +145,13 @@
   /* background-size: 100%; */
   background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/BYT-SA-1.jpg');
 }
+
+.photos-page-header-3 {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  /* background-size: 100%; */
+  background-image: url('https://cornellsun.com/wp-content/uploads/2019/04/DSC01181.jpg');
+}

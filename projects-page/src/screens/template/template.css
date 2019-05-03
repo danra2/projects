@@ -3,8 +3,6 @@
 }
 .wrapper {
   min-height: 775px;
-
-  background-image: url(images/hero1.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +18,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.maintitle-desktop {
+.maintitle-desktop-wsh {
   text-align: left;
   font-size: 320%;
   font-family: "Open Sans", serif;
@@ -29,10 +27,10 @@
   position: relative;
   color: #a88c5d;
 }
-#first-line-desktop {
-  margin-top: 10%;
-}
-.byline-desktop {
+  .maintitle-desktop-wsh-first {
+    margin-top: 15%;
+  }
+.byline-desktop-wsh {
   text-align: left;
   margin-top: 1%;
   margin-left: 12%;
@@ -47,12 +45,12 @@
 /* #helicopter {
   background-image: url(images/helicopter.png);
 } */
-#engineer {
+/* #engineer {
   background-image: url(images/engineer.png);
 }
 #rawlings {
   background-image: url(images/rawlings.png);
-}
+} */
 .quote-paragraph {
   margin-left: 18%;
   margin-right: 22%;
@@ -60,10 +58,10 @@
 .pull-quote {
   width: 200px;
 }
-.img-caption {
+.img-caption-wsh {
   width: 230px;
   margin-left: 23%;
-  font-size: 150%;
+  font-size: 110%;
   font-family: "Open Sans", serif;
   font-weight: 300;
   margin-bottom: -3px;
@@ -92,14 +90,21 @@
   font-weight: 400;
 }
 
-#maintitle {
+#maintitle-opeds {
   text-align: left;
-  font-size: 270%;
+  font-size: 320%;
   font-family: "Open Sans", serif;
   font-weight: 800;
   margin-left: 18%;
   color: #a88c5d;
-  margin-top: 0%;
+}
+#maintitle-news {
+  text-align: left;
+  font-size: 320%;
+  font-family: "Open Sans", serif;
+  font-weight: 800;
+  margin-left: 18%;
+  color: #a88c5d;
 }
 
 .inarticlephoto {
@@ -108,7 +113,20 @@
   padding-bottom: 3%;
 }
 
-#byline {
+#byline-news {
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 18%;
+  color: #666;
+  font-style: italic;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  padding-bottom: 30px;
+  font-size: 150%;
+  position: relative;
+}
+
+#byline-opeds{
   text-align: left;
   margin-top: 1%;
   margin-left: 18%;
@@ -145,11 +163,11 @@
   width: 100%;
   height: auto;
 }
-.sketch-caption {
+.sketch-caption-wsh {
   margin-left: 17%;
   width: 65%;
   margin-top: 0.5%;
-  font-size: 140%;
+  font-size: 110%;
   color: #666;
   font-family: "Roboto", serif;
   font-style: italic;
@@ -259,6 +277,7 @@
   .wrapper-mobile {
     display: none;
   }
+
 }
 @media only screen and (max-width: 1000px) {
   #sunlogo {
@@ -266,15 +285,23 @@
   }
 }
 @media only screen and (max-width: 1000px) {
-  #maintitle {
+  #maintitle-news {
+    font-size: 200%;
+  }
+  #maintitle-opeds{
     font-size: 200%;
   }
 }
+@media only screen and (max-width: 1300px) {
+  .maintitle-desktop-wsh-first {
+    margin-top: 15%;
+  }
+}
 @media only screen and (min-width: 768px) {
-  #maintitle {
+  #maintitle-opeds {
     display: none;
   }
-  #byline {
+  #byline-opeds {
     display: none;
   }
 }
@@ -283,34 +310,31 @@
     display: block;
   }
 
-  .wrapper {
-    display: none;
-  }
   .img-caption {
     margin-left: 18%;
-    width: 65%;
+    width: 55%;
     margin-top: 0.5%;
-    font-size: 110%;
+    font-size: 100%;
     color: #666;
     margin-bottom: 1%;
   }
   .pull-quote-para {
     margin-left: 18%;
-    margin-right: 22%;
+    margin-right: 10%;
     margin-top: 2%;
     font-family: "Roboto", serif;
     font-weight: 300;
-    font-size: 110%;
+    font-size: 130%;
     color: #000;
     line-height: 1.7em;
   }
 
   .pull-quote {
-    width: 250px;
-    margin-left: 18%;
+    width: 150px;
+    margin-left: 1%;
   }
   .in-text-img {
-    margin-left: 18%;
+    margin-left: 35%;
 
     height: auto;
   }
@@ -322,6 +346,10 @@
   }
   .wrapper {
     background-position: right;
+    display: none;
+  }
+  #byline-news {
+    font-size: 110%;
   }
 }
 
@@ -335,8 +363,25 @@
   .wrapper {
     min-height: 450px;
   }
+  .in-text-img {
+    margin-left: 15%;
+    /* margin-bottom: 300px; */
+    height: auto;
+  }
+  .img-caption {
+    margin-left: 18%;
+    width: 55%;
+    margin-top: 0.5%;
+    font-size: 100%;
+    color: #666;
+    margin-bottom: 1%;
+  }
+  .pull-quote {
+    width: 300px;
+    margin-left: 20%;
+  }
   .pull-quote-para {
-    font-size: 136%;
+    font-size: 130%;
   }
   .parallaximage {
     background-image: none;
@@ -345,8 +390,14 @@
   .sketch {
     display: block;
   }
-  #maintitle {
+  #maintitle-news {
     font-size: 190%;
+  }
+  #maintitle-opeds{
+    font-size: 190%;
+  }
+  .sketch-caption-wsh {
+    display:none;
   }
 }
 

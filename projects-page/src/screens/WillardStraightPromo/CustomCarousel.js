@@ -5,22 +5,31 @@ import {
   CarouselControl,
   CarouselIndicators
 } from "reactstrap";
+import { Redirect } from "react-router";
 
 const items = [
   {
-    src: require("./images/opedHero2.png"),
-    button: "button1"
+    id: 1,
+    src: require("./images/jones.png")
   },
   {
-    src: require("./images/opedHero1.png"),
-    button: "button2"
+    id: 2,
+    src: require("./images/davis.png")
+  },
+  {
+    id: 3,
+    src: require("./images/harrison.png")
+  },
+  {
+    id: 4,
+    src: require("./images/acree.png")
   }
 ];
 
 class CustomCarousel extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeIndex: 0 };
+    this.state = { activeIndex: 0, redirect: 0 };
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
     this.goToIndex = this.goToIndex.bind(this);
@@ -59,22 +68,38 @@ class CustomCarousel extends Component {
     this.setState({ activeIndex: newIndex });
   }
 
+  handleOnClick = i => {
+    this.setState({ redirect: i });
+  };
+
   render() {
     const { activeIndex } = this.state;
-
-    const slides = items.map(item => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        >
-          <img src={item.src} alt={item.altText} />
-          {/* <button className={item.button} /> */}
-        </CarouselItem>
-      );
-    });
-
+    var slides;
+    if (this.state.redirect > 0) {
+      slides = [
+        <Redirect push to={`/WillardStraight/opeds/${this.state.redirect}`} />
+      ];
+      this.handleOnClick(0);
+    } else {
+      slides = items.map(item => {
+        return (
+          <CarouselItem
+            onExiting={this.onExiting}
+            onExited={this.onExited}
+            key={item.src}
+          >
+            <img
+              src={item.src}
+              alt={item.altText}
+              className="carousel-hover"
+              onClick={() => {
+                this.handleOnClick(item.id);
+              }}
+            />
+          </CarouselItem>
+        );
+      });
+    }
     return (
       <Carousel
         activeIndex={activeIndex}
@@ -88,6 +113,7 @@ class CustomCarousel extends Component {
           onClickHandler={this.goToIndex}
         />
         {slides}
+
         <CarouselControl
           direction="prev"
           directionText="Previous"
@@ -104,40 +130,3 @@ class CustomCarousel extends Component {
 }
 
 export default CustomCarousel;
-
-{
-/* 
-    import {
-      CarouselProvider,
-      Slider,
-      Slide,
-      DotGroup,
-      Image
-    } from "pure-react-carousel";
-    import "pure-react-carousel/dist/react-carousel.es.css";
-
-    <CarouselProvider
-      naturalSlideWidth={100}
-      naturalSlideHeight={45}
-      totalSlides={2}
-      isPlaying={true}
-      lockOnWindowScroll={true}
-      dragEnabled={false}
-    >
-      <Slider classNameAnimation="transition">
-        <Slide index={0}>
-          <Image
-            src={require("./images/opedHero2.png")}
-            alt="Oped Speaker One"
-          />
-        </Slide>
-        <Slide index={1}>
-          <Image
-            src={require("./images/opedHero1.png")}
-            alt="Oped Speaker Two"
-          />
-        </Slide>
-      </Slider>
-      <DotGroup className="dots" />
-    </CarouselProvider> */
-}
