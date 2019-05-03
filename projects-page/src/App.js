@@ -6,6 +6,7 @@ import pumpkin from "./screens/Pumpkin/ptower.js";
 // import pumpkin from "./screens/template/template.js"; // TEMPLATE FOR NEWS
 import Huawei from "./screens/Huawei/Huawei.js";
 import WillardStraight from "./screens/WillardStraightPromo/WillardStraight.js";
+import Hemp from './screens/Hemp/Hemp'; 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/week-in-photos-2" component={PhotoWeek2} />
           <Route path="/pumpkin" component={pumpkin} />
           <Route path="/WillardStraight" component={WillardStraight} />
+          <Route path="/hemp-industry" component={Hemp}/>
         </Router>
       </div>
     );

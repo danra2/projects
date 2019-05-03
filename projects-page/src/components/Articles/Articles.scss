@@ -113,13 +113,6 @@
     height: 250px;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:active, a:visited, a:hover, a:link {
-    color: $sun-gray;
-}
 
 Link {
     cursor: pointer;
