@@ -10,6 +10,7 @@
     "react": "^16.8.4",
     "react-before-after-slider": "^1.0.4",
     "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.1",
     "react-images": "^0.5.19",
     "react-modal": "^3.8.1",
     "react-navbar": "^3.0.0",

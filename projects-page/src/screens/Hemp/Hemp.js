@@ -139,7 +139,7 @@ class Hemp extends Component {
                     <p>An <a target="_blank" href="https://cornellsun.com/2019/03/21/lombardi-announces-mental-health-reforms-students-skeptical-but-hopeful/">email</a> to the student body in March from Vice President Lombardi outlined updates to mental health reforms including “[enhancing] students’ access to psychotropic medication management services” by fall 2019. Whether those medications will include CBD products is currently unclear. However, if the pharmacy does decide to stock CBD oil, they will try to source their supply from local New York state vendors, Denardo said.</p>
                     
                     <div className="hempParallax hempParallax-4"></div>
-                    <div className="hempPhotoCredit"></div>
+                    <div className="hempPhotoCredit">Graphic by Yoo Jin Bae / Sun Graphic Artist</div>
                     <h3>THE FUTURE</h3>
                     <p>“There are <a target="_blank" href="https://www.hort.purdue.edu/newcrop/ncnu02/v5-284.html">thousands</a> of documented uses for hemp, including plastic, textile fabric and medicinal oil,” Colleen Coleman, a recent entrepreneur to try to enter the fray, told The Sun. Coleman has founded two hemp based companies: CBD Helpz, which sells tinctures, gummies and more products made from the extracted hemp oil, and Hempire New York, Inc., which plans to create fabrics from processed hemp leaf fiber. </p>
                     <p>She is setting up shop a mile away from the famous Watkins Glen <a target="_blank" href="https://www.theglen.com/?homepage=true">racetrack</a> in Schuyler County, N.Y. </p>
@@ -161,6 +161,7 @@ class Hemp extends Component {
                     <p>For the first time next fall, a <a target="_blank" href="https://cornellsun.com/2019/04/19/course-to-launch-in-fall-dives-into-weeds-of-cannabis-science-culture/">course</a> on cannabis — PLSCS 4190: Cannabis: Biology, Society and Industry — will be offered, taught by Prof. Carlyn S. Buckler, plant science. In an interview with The Sun, Buckler said that for the class, she “would like everyone to understand the breadth and depth of the cannabis industry and what the potentials are.”</p>
                     <p>Coleman argued that de-stigmatization through education was the best route. “I think it starts in institutions and schools. It’s sad that our physicians and our doctors are not more educated in the field. It’s not their fault, they only know that they’re taught.”</p>
                     <p>The novel nature of this commodity allows for confusion, misinformation and room for regulation. Time will tell whether the thin-leaved, bright green plant will live up to its high expectations. However, if the hemp industry continues to grow in lockstep with Cannabis sativa L’s typical growth rate, according to Steve Crispell, it will grow “like a weed.”</p>
+                    <p id="hemp-author-bio">Amanda H. Cronin is a member of the Class of 2021 and studies environmental science, law, and communication in the College of Agriculture and Life Sciences. She is a News Editor on the 137th editorial board and can be reached at acronin@cornellsun.com.</p>
                 </div>
                 
             </div>

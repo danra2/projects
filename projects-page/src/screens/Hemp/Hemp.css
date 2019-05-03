@@ -143,3 +143,8 @@
 .hempWrapper {
     padding-bottom: 50px;
 }
+
+#hemp-author-bio {
+    font-style: italic;
+    color: grey;
+}
