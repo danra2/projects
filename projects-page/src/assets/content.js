@@ -3,13 +3,13 @@ import huawei_cover from "../screens/Huawei/images/huaweicover.jpg";
 import willard_cover from "../screens/WillardStraightPromo/images/news_timeline3.jpg";
 
 const content = [
-  // {
-  //   id: 0,
-  //   title: "The Hemp Industry is Growing like a Weed",
-  //   description: "The 2018 farm bill legalized hemp for growth in the United States. Now, farmers, entrepreneurs, investors, medical professionals in New York state are scrambling to get their piece of the pie. Cornell is one of the leading institutions in hemp research and will play a major role in the success of this industry.",
-  //   image: "http://i64.tinypic.com/r8fin5.jpg",
-  //   url: "/hemp-industry"
-  // },
+  {
+    id: 0,
+    title: "The Hemp Industry is Growing like a Weed",
+    description: "The 2018 farm bill legalized hemp for growth in the United States. Now, farmers, entrepreneurs, investors, medical professionals in New York state are scrambling to get their piece of the pie. Cornell is one of the leading institutions in hemp research and will play a major role in the success of this industry.",
+    image: "http://i64.tinypic.com/r8fin5.jpg",
+    url: "/hemp-industry"
+  },
   {
     id: 1,
     title: "Fifty Years Later: The Straight Takeover",
