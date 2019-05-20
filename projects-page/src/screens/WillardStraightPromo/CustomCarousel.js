@@ -23,6 +23,14 @@ const items = [
   {
     id: 4,
     src: require("./images/acree.png")
+  },
+  {
+    id: 5,
+    src: require("./images/taubman.png")
+  },
+  {
+    id: 6,
+    src: require("./images/burak.png")
   }
 ];
 
